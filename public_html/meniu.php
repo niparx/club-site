@@ -23,10 +23,13 @@
 	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="news.php"><b>Anonsai / Naujienos</b></a></td>
 </tr>
 
+<!--
 <tr><td background="images/hdot.gif"></td></tr>
 <tr>
 	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="komanda.php"><b>Komanda</b></a></td>
 </tr>
+-->
+
 <tr><td background="images/hdot.gif"></td></tr>
 <tr>
 	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="rezultatai-a.php"><b>Rezultatai</b></a></td>
