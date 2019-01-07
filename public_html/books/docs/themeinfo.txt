@@ -1,0 +1,400 @@
+IMPORTANT NOTES
+~~~~~~~~~~~~~~~
+ * Version 0.7 adds the option to require the user to introduce a
+  confirmation code when signing the guestbook, in order to avoid automated
+  signing. This option is enable by default, and requires a new GB_TAG to
+  be included in temp_sign.html file. This new GB_TAG is
+  <!--GB_CONFIRMCODE-->, it will be replaced by a X characters confirmation
+  code.
+  Version 0.7 has a new error notification method, when the script finds
+  errors in data entered by the user, it reloads the sign page and fills in
+  previously entered data (so that it's not lost as before, annoying the user),
+  and errors are shown using the new <!--GB_SIGNERRORS--> GB_TAG, you can place
+  it wherever you want in temp_sign.html file.
+  In order to allow the script to fill signing form fields automatically, name,
+  email and message input fields in temp_sign.html have been change from:
+
+  <input type="text" name="name" />
+  <input type="text" name="email" />
+  <input type="text" name="url" />
+  <textarea name="message"></textarea>
+
+  to:
+
+  <input type="text" name="name" value="<!--GB_ENTRYNAME--> />
+  <input type="text" name="url" value="<!--GB_ENTRYURL-->" />
+  <input type="text" name="url" value="<!--GB_ENTRYURL-->" />
+  <textarea name="message"><!--GB_ENTRYMESSAGE--></textarea>
+  
+ * Version 0.6.1 introduces the ability to show a succesful page after
+  the user has signed the guestbook. This succesful page is loaded from
+  a new temp_signsuccesful.html file located within current theme's
+  directory (or by default from melody1 theme). If you enable this option,
+  you'll need to add this new temp_signsuccesful.html file to your current
+  theme.
+
+ * Since version 0.6, temp_admin.html and temp_modify.html won't need
+  to provide a password input field since the new admin login interface
+  will be used instead.
+   Also, temp_message.html shouldn't "build" the administration link
+  by using the <!--GB_ENTRYID--> GB_TAG but use the new
+  <!--GB_ENTRYADMINLINK--> tag instead. This GB_TAG will be replaced
+  by a link to the administration interface of current entry, but only
+  when admin is logged in. This link will try to use a gbadminlink.gif image
+  located in current theme's directory.
+   Besides <!--GB_ENTRYADMINLINK-->, two more GB_TAGS have been added:
+  <!--GB_ENTRYEMAILLINK--> and <!--GB_ENTRYURLLINK-->, these work similar
+  to the administration link but for entries' email and url links. These
+  will look for gbemail.gif and gburl.gif image files within current theme's
+  directory.
+
+ * Since version 0.5, temp_admin.html theme files will need this line:
+  <input type="hidden" name="date" value="<!--GB_ENTRYDATEINT-->">
+  within the deleteMessage form.
+  Please add it to your current temp_admin.html theme file to be able
+  to delete entries. Themes included with version 0.5 have already been
+  edited to include it.
+ * Also, since version 0.5, the melody1 theme will be taken as the default
+  theme for administration purposes. So, when creating new themes, you won't
+  need to create a temp_admin.html file, if YapGB does not found a
+  temp_admin.html file in the current theme folder, it will look for the one
+  in the melody1 theme (themes/melody1/temp_admin.html), just make sure that
+  melody1 theme has been uploaded :). It works the same for the
+  temp_modify.html theme file. It also works with temp_sign.html,
+  temp_body.html and temp_sign.html, but has been implemented mainly to let
+  you create new themes without needing to create new temp_admin.html and
+  temp_modify.html files :).
+   It has been decided so that when creating new themes, you just need to focus
+  on the user's interface (main and signing pages) by creating (or editing)
+  only temp_body.html, temp_entry.html and temp_sign.html files.
+
+THEMES
+~~~~~~
+   YapGB uses a theme system for defining its appearance, this file shows
+  information on themes structure so that you can modify the included
+  themes or create your own.
+
+   This release includes two themes: 'melody1' and 'gbwhite'. You
+  can download more themes at http://yapgb.sourceforge.net/themes.php
+
+
+YapGB THEMES STRUCTURE
+~~~~~~~~~~~~~~~~~~~~~~
+   All YapGB are stored in its own folder in the themes/ directory, that
+  folder is named after the name of the theme. For example, melody1 theme
+  is stored in a folder called 'melody1' inside the themes/ directory,
+  like this:
+                       yapgb/themes/melody1/
+
+   YapGB themes consist of five files:
+  - temp_message.html defines the appearance of each entry
+  - temp_body.html defines the appearance of the main page
+  - temp_sign.html defines the appearance of the signing form
+  - *temp_admin.html defines the appearance of the edit/delete entry page (optional)
+  - *temp_modify.html defines the appearance of the modify entry page (optional)
+  - *temp_signsuccesful.html showed after signing the guestbook (optional)
+
+   You can see two temp files marked as optional, when those files do not exist
+  for the theme, YapGB will use melody1's files. So it is not necessary for you to
+  create those files when creating a new theme.
+
+   So let's say you want to create your own theme "myTheme", you have
+  to create those five HTML files, and put them in a folder named
+  "myTheme" inside the themes directory, like this:
+
+  yapgb/themes/myTheme/temp_mess.html
+                       temp_body.html
+                       temp_sign.html
+                       temp_admin.html
+                       temp_signsuccesful.html
+
+   All of these files are HTML standard files, the important thing is
+  that they include "special" tags (GB_TAGS) in the HTML comment style
+  to let YapGB insert data and show the user interface. Let's have a
+  look at each of those five HTML template files:
+
+* temp_message.html
+   This file defines the appearance of each entry in the guest book,
+  it'd include generally a HTML table to create the desired structure
+  to show guest book entries. You should take a look at file
+  themes/melody/temp_message.html to have a better view of it. Note that
+  this it not completely a standard HTML file since it does not need any
+  of the following tags: <html></html>, <head></head> and <body></body>.
+  This is because this file is used as a "template" for entries, this
+  "template" will be included in temp_body.html (which does need those HTML
+  tags).
+   The GB_TAGS for this file are:
+  - (*NEW*) <!--GB_ENTRYADMINLINK-->
+    This tag will be replaced by a link to the administration interface,
+   but only when administrator is logged in. This link will try to use a
+   gbadminlink.gif image located in current theme's directory.
+    This new GB_TAG has been added for administration purposes and should
+   be used instead of "building" the administration link using the
+   <!--GB_ENTRYID--> GB_TAG as in previous versions.
+  - (*NEW*) <!--GB_ENTRYEMAILLINK-->
+    This tag will be replaced by a link to entry's email, but only when the
+   entry email exists. This link will look for a gbemail.gif image within
+   current theme's directory.
+  - (*NEW*) <!--GB_ENTRYURLLINK-->
+    Similar to <!--GB_ENTRYEMAILLINK--> but for entry's URL. This one will try
+   to use a gburl.gif image within current theme's directory. This and the
+   <!--GB_ENTRYEMAILLINK--> GB_TAGS have been added so that email and URL links
+   won't be showed when they actually don't exist (in previous versions, those
+   links would appear even when the user didn't provide them because of the way
+   the temp_message.html included them).   
+  - <!--GB_ENTRYID-->
+    This is the id of the current entry. It was used for administration
+   purposes in previous versions (you'd create a link to the admin page
+   using it), but since version 0.6, the new <!--GB_ENTRYADMINLINK-->
+   tag should be used instead.
+  - <!--GB_ENTRYEMAIL-->
+    This tag is sustituted by the email of the current entry.
+  - <!--GB_ENTRYMESSAGE-->
+    This tag is sustituted by the message entered by the poster of the
+   current entry.
+  - <!--GB_ENTRYURL-->
+    This tag is sustituted by the url entered by the poster of the actual
+   entry (notice that no url could be entered).
+
+    The next set of tags are related to the date of the entry, there are
+   several of them so that you can define how to show the date of the entry.
+  - <!--GB_ENTRYDAY-->
+    The name of the day (reduced form), e.g.: Sun, Mon, Tue, Wed, etc.
+  - <!--GB_ENTRYDAYFULL-->
+    Full name of day, e.g.: Sunday, Monday, Tuesday, Wednesday, etc.
+  - <!--GB_ENTRYDAYN-->
+    Number of the day in month (from 00 to 31).
+  - <!--GB_ENTRYMONTH-->
+    The name of the month in reduced form, e.g.: Jan, Feb, Mar, Apr, etc.
+  - <!--GB_ENTRYMONTHFULL-->
+    The complete name of the month, e.g.: January, February, March, etc.
+  - <!--GB_ENTRYMONTHN-->
+    Number of the month, from 01 (January) to 12 (December).
+  - <!--GB_ENTRYYEAR-->
+    Year in two numbers format, from 00 to 99.
+  - <!--GB_ENTRYYEARFULL-->
+    Year in four digits format, e.g.: 2003, 2004.
+  - <!--GB_ENTRYTIME-->
+    Time in preferred format (defined by the server) without date.
+   Generally it looks like "12:19:33".
+  - <!--GB_ENTRYDATEFULL-->
+    Date and time in preferred format (defined by the server), generally
+   it looks like "01/04/04 12:19:33" for the date Jan 04, 2004 12:19:33.
+
+* temp_body.html
+   This template file defines the style of the main guest book web page,
+  generally it shows the title of the guest book, a link to the sign book
+  page, a link for going back to the site and the guest book entries. The
+  GB_TAGS for this file are:
+  - <!--GB_TITLE-->
+    This tag is sustituted by the title of the guest book as defined in
+   $cfgTitle in gbconfig.php.
+  - <!--GB_INDEX-->
+    This tag represents the index file for YapGB, it's defined by $cfgGBIndex
+   in gbconfig.php.
+    This is used so that you can rename the main YapGB file to whatever
+   you want without having to edit anything but the $cfgIndex variable in
+   gbconfig.php. YapGB main file can refer to itself using the $PHP_SELF
+   variable, but if you rename the main YapGB file, other files (like
+   gbadmin.php) wouldn't be able to refer to YapGB main file.
+  - <!--GB_SITEINDEX-->
+    This one is sustituted by the url of your site, so that you can have
+   a link for going back to your web page. This option is defined by
+   the $cfgSiteIndex variable in gbconfig.php.
+  - <!--GB_ENTRIES-->
+    This is the most important tag in temp_body.html, it will be
+   substituted by the guestbook entries (after being formatted using
+   temp_message.html).
+  - <!--GB_PAGINATION-->
+    YapGB generates links to every page in the book (the number of pages
+   is defined by dividing the number of entries by the desired entries
+   per page defined by $cfgEntriesPerPage in gbconfig.php).
+  - <!--GB_INFO-->
+    This tag is sustituted by a "Powered by YapGB" message including a link
+   to YapGB main site. You could edit it to add some info about you or
+   your site, but please keep the "Powered by YapGB" message intact and
+   don't delete it from the included temp_body.html files. Also, please
+   include this tag in every new template you create.
+    This tag exists so that you can place the "Powered by YapGB" message
+   wherever you want.
+    I know it's very easy to remove it so that no YapGB mention appears
+   on your guestbook, but if you wanted to do so, you could do it even
+   if there wasn't this option, as you could edit the main YapGB file
+   by yourself :P. It's just that I decided to have this option so that you
+   can decide where to put this message.
+
+* temp_sign.html
+   This is the signing form page, it defines the appearance of the form
+  for adding new entries to the guest book. The GB_TAGS you can use are:
+  - <!--GB_TITLE-->
+    The title of the guest book defined by $cfgTitle in gbconfig.php.
+  - <!--GB_INDEX-->
+    Main YapGB file, defined by $cfgGBIndex in gbconfig.php.
+  - <!--GB_SITEINDEX-->
+    Index for your site. Defined by $cfgSiteIndex in gbconfig.php.
+  - <!--GB_ALLOWEDTAGS-->
+    You can use this tag for letting know the user the HTML tags that
+   are allowed in your guestbook. This tag is sustituted by the value of
+   the $cfgAllowedHTML variable in gbconfig.php.
+  - <!--GB_INFO-->
+    It shows a "Powered by YapGB" message, please don't remove it from
+   the included templates and add it to every template you create.
+  - (*NEW*) <!--GB_CONFIRMCODE-->
+    It is replaced by a 3 characters code that must be introduced by the
+   user in order to sign the guestbook. This requiremen prevents automated
+   bots (spammers) from signing the guestbook.
+    This new option adds another requirement to temp_sign.html file, it needs
+   another input field named 'codeConfirm', this is where the user will
+   introduce the confirmation code. Take a look at the melody1/temp_sign.html
+   file included with this release.
+  - <!--GB_ENTRYNAME-->
+    <!--GB_ENTRYEMAIL-->
+    <!--GB_ENTRYURL-->
+    <!--GB_ENTRYMESSAGE-->
+    These are not new GB_TAGS, but are new to temp_sign.html file. These will
+   be used to allow the script to automatically fill in data when there is an
+   error, so that this data is not lost (as happened before), annoying the user
+   (and very likely, making him/her not to post again).
+
+   Please take a look at the templates/melody1/temp_sign.html file for
+  a better idea of what this file should include. Also in this file, you
+  can see a script (written using JavaScript) used to make sure that the
+  poster writes his/her name, email and a message (it does not check for
+  an url). I recommend you to use this script (or a similar one) so that
+  you can be sure that the poster includes some data.
+
+   Since version 0.5, melody1 and gbwhite temp_sign.html theme files include
+  a useful function to make the use of smilies more friendly to users. I'd
+  recommend you to include a similar feature in your custom temp_sign.html
+  files if you are planning to enable the use of smilies.
+
+   Also, you'll note that themes melody1 and gbwhite include a link (in the
+  signing guestbook page) that opens a new window containing some info about
+  BBCode. This link will appear even if you disable BBCode in config.php since
+  it has been included in the temp_sign.html theme file, so you'll need to
+  delete that link yourself if you don't want to enable BBCode. The link
+  is located in temp_sign.html file and looks like this:
+  <a href="javascript:openHelp('BBCode');">BBCode</a>
+  It calls a function called openHelp (written in JavaScript) that opens the
+  page gbhelp.php in a new window, this function can be found between the
+  <script language="JavaScript"> and </script> tags before </head> and
+  <link> in temp_sign.html, if you disable BBCode and delete the link above,
+  you can delete this function if you want to :).
+  Besides, if you don't need BBCode and you disabled the hyperlink just
+  mentioned above, you won't need to upload the gbhelp.php to your guestbook
+  folder.
+
+* temp_admin.html
+   This template file defines the appearance of the page for deleting
+  an entry.
+  
+  *** DEPRECATED INFO since version 0.6 includes administrator login interface
+  
+   There is no page for introducing the id of the entry to delete,
+  so the only way to access the delete entry page is trough a link to
+  admin.php in the form admin.php?id=entryNumber where entryNumber is the
+  number of the entry to delete. I recommend you to have a look at the
+  themes/melody1/temp_admin.html to have a better understanding of it.
+
+  *** END OF DEPRECATED INFO
+  
+   Since version 0.6, there is a nevw way of accessing the
+  administration page: by using the link showed by the <!--GB_ENTRYADMINLINK-->,
+  and this should be used instead of the previous method.
+  
+   Here is the list of the GB_TAGS available for this file:
+  - All of the tags for temp_message.html
+    They are used so that you can use them to view the message you are just
+   about to delete.
+  - <!--GB_TITLE-->
+    The title of the guest book defined by $cfgTitle in gbconfig.php.
+  - <!--GB_INDEX-->
+    Main YapGB file, defined by $cfgGBIndex in gbconfig.php.
+  - <!--GB_SITEINDEX-->
+    Index for your site. Defined by $cfgSiteIndex in gbconfig.php.
+  - <!--GB_INFO-->
+    It shows a "Powered by YapGB" message, please don't remove it from
+   the included templates and add it to every template you create.
+
+  *** START OF DEPRECATED INFO
+     NOTE: this info is deprecated since version 0.6 doesn't need the
+     password to be passed as parameter because of the new administrator
+     login interface.
+
+   Notice that the password you write in the delete entry page is
+  passed to the admin.php file, so you should make sure that your
+  temp_admin.html include the form fields used by admin.php.
+  
+  *** END OF DEPRECATED INFO
+  
+  Also, the date field (in integer format) needs to be passed to the delete
+  script, you can use the <!--GB_ENTRYDATEINT--> GB_TAG for this purpose.
+  So every temp_admin.html file should include these lines:
+
+    <input type="hidden" name="id" value="<!--GB_ENTRYID-->">
+    <input type="hidden" name="date" value="<!--GB_ENTRYDATEINT-->">
+    <input type="password" maxlength="25" size="15" name="passwd">
+
+   The important thing here is the name property of these fields, since that
+  is how gbadmin.php recognizes the values passed to it.
+
+   Also, remember to set the action property of your form to gbadmin.php,
+  like this:
+    <form action="gbadmin.php" method="post">
+  You MUST use the post method for this form (and in general, for all
+  forms in YapGB themes).
+
+* temp_modify.html
+   This new file was introduced since v0.3, it is used to define the
+  appearance of the page for modifying an entry.
+   Basically, it is a modified version of temp_sign.html, it just adds the
+  tags for the entries in the value fields of the <input> tags.
+   One of the important differences here is the "special" GB_TAG
+  <!--GB_DATEENTRYINT--> that is used for storing the date of the entry
+  being modified in integer format (you can see it by looking at the page
+  source code when modifying an entry), so that it can be passed to the
+  update script. It could have been done using another method, but this
+  one is simple and does the job. Here is the list of tags for this file:
+  - All tags for temp_message.html, temp_sign.html and temp_admin.html
+  - <!--GB_DATEENTRYINT-->
+    Used for passing the date field of the entry being modified. The
+  date field can not be modified, so it is passed using a hidden input
+  field:
+    <input type="hidden" name="date" value="<!--GB_DATEENTRYINT-->">
+
+   *** DEPRECATED INFO since version 0.6 includes an administrator login
+       interface.
+    Since this file passes a password to admin.php for confirming the
+   update of the entry, you should remember to include:
+    <input type="password" name="passwd">
+    
+   *** END OF DEPRECATED INFO
+
+    This is an example form for temp_modify.html:
+    <form action="admin.php" method="post">
+    <input type="hidden" name="id" value="<!--GB_ENTRYID-->">
+    <input type="hidden" name="action" value="update">
+    <input type="hidden" name="date" value="<!--GB_ENTRYDATEINT-->">
+    Name: <input type="text" name="name" value="<!--GB_ENTRYNAME-->"><br>
+    Email: <input type="text" name="email" value="<!--GB_ENTRYEMAIL-->"><br>
+    Url: <input type="text" name="url" value="<!--GB_ENTRYURL-->"><br>
+    Message:<br><textarea name="message"><!--GB_ENTRYMESSAGE--></textarea><br>
+    <input type="submit" name="submit>
+    </form>
+
+   Remember that the temp_message.html does not include the <html></html>,
+  <head></head> and <body></body> tags, since the content of this file
+  is used to format entries that will be included in the temp_body.html
+  file.
+  
+* temp_signsuccesful.html
+   This file is introduced since version 0.6.1, it will be used for showing
+  a sign succesful page after the user has signed the guestbook.
+   This file can use most GB_TAGS for temp_message.html and for temp_body.html
+  files, with the exception of:
+  <!--GB_ENTRYID-->, <!--GB_ENTRYADMINLINK-->, <!--GB_ENTRIES--> and
+  <!--GB_PAGINATION-->.
+
+   That is all about themes that I can think of at the moment, if you have
+  any questions please send them to yapgb@hewop.com or use the feedback form
+  at YapGB website: http://yapgb.sourceforge.net/. Thanks.

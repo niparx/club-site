@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title><!--GB_TITLE-->: Deleting an entry</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="styleSheet" href="themes/melody1/style.css" type="text/css" />
+</head>
+
+<body bgColor="#ffffff">
+<table cellSpacing="3" cellPadding="3" width="90%" border="0" align="center">
+  <tr>
+    <th align="left" width="70%" bgColor="#306090">
+      <b> <!--GB_ENTRYNAME--></b>
+      <a href="mailto:<!--GB_ENTRYEMAIL-->"><img src="themes/melody1/gbemail.gif" border="0" alt="<!--GB_ENTRYEMAIL-->" /></a>
+      <a href="<!--GB_ENTRYURL-->"><img src="themes/melody1/gburl.gif" border="0" alt="<!--GB_ENTRYURL-->" /></a>
+    </th>
+    <td align="right" width="30%" bgColor="#306090">
+      <font class="date">&nbsp;<!--GB_ENTRYDATEFULL--></font>
+      <img src="themes/melody1/gbtime.gif" border="0" align="middle" alt="Date" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left" bgColor="#efefef" colSpan="2">
+      <table cellSpacing="2" cellPadding="2" border="0">
+        <tr>
+          <td vAlign="top" align="middle" width="20">
+            <img src="themes/melody1/gbmsg.gif" border="0" alt="Message" />
+          </td>
+          <td align="left">
+            <!--GB_ENTRYMESSAGE-->
+            <br /><br />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br /><br />
+<center>
+Select action to perform
+<br /><br />
+<font style="color:#ffffff; background:#ff0000; font-weight:bold;">&nbsp; /!\ WARNING /!\ &nbsp;</font>
+<br />
+If you delete the entry, you won't be able to recover it anymore!<br /><br />
+<table cellSpacing="0" cellPadding="0" width="50%" border="0">
+  <tr>
+    <td>
+      <br />
+    </td>
+  </tr>
+  <tr>
+    <td align="middle" bgColor="#306090" height="30">
+      <big style="color:white"><b>Modify/Delete entry</b></big>
+    </td>
+  </tr>
+  <tr>
+    <td align="middle" bgColor="#e2e2e2">
+      <form name="deleteMessage" action="gbadmin.php" method="post">
+      <input type="hidden" name="id" value="<!--GB_ENTRYID-->" />
+      <input type="hidden" name="date" value="<!--GB_ENTRYDATEINT-->" />
+      <br />
+      <table align="center" cellPadding="7" border="0">
+        <tr>
+          <td align="middle">
+            <input type="radio" name="action" value="modify" checked />Modify entry<br />
+            <input type="radio" name="action" value="delete" />Delete entry<br />
+          </td>
+        </tr>
+        <tr>
+          <!-- Not needed anymore
+          <td align="right">
+            <small><b>Admin Password:</b></small>
+          </td>
+          <td>
+            <input type="password" maxLength="25" size="15" name="passwd" />
+          </td>
+          -->
+          <td colspan="3">
+            <input style="font-size:8pt" type="submit" />
+          </td>
+        </tr>
+        <tr><td><a href="<!--GB_INDEX-->"><b>[Back to book]</b></a></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br /><br />
+<!--GB_INFO-->
+</center>
+
+</body>
+</html>

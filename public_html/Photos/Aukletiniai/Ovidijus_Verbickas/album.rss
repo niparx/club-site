@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Ovidijus Verbickas</title>
+   	<link>../..</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+        <item>
+            <title>230743_10151382612417733_655160774_n</title>
+            <link>slides/230743_10151382612417733_655160774_n.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:45 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/230743_10151382612417733_655160774_n.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/230743_10151382612417733_655160774_n.jpg" width="751" height="960"/>
+            <guid isPermaLink="false">slides/230743_10151382612417733_655160774_n.jpg</guid>
+        </item>
+        <item>
+            <title>740121_10151382612652733_1096749677_o</title>
+            <link>slides/740121_10151382612652733_1096749677_o.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:45 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/740121_10151382612652733_1096749677_o.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/740121_10151382612652733_1096749677_o.jpg" width="1024" height="724"/>
+            <guid isPermaLink="false">slides/740121_10151382612652733_1096749677_o.jpg</guid>
+        </item>
+        <item>
+            <title>775030_10151388908932733_1767207246_o</title>
+            <link>slides/775030_10151388908932733_1767207246_o.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:45 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/775030_10151388908932733_1767207246_o.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/775030_10151388908932733_1767207246_o.jpg" width="1024" height="705"/>
+            <guid isPermaLink="false">slides/775030_10151388908932733_1767207246_o.jpg</guid>
+        </item>
+        <item>
+            <title>774575_10151390907597733_1962484565_o</title>
+            <link>slides/774575_10151390907597733_1962484565_o.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:45 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/774575_10151390907597733_1962484565_o.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/774575_10151390907597733_1962484565_o.jpg" width="1024" height="637"/>
+            <guid isPermaLink="false">slides/774575_10151390907597733_1962484565_o.jpg</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<title>BBCode guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="themes/melody1/style.css" type="text/css" />
+</head>
+<body>
+
+<table align="center" width="550">
+  <tr>
+    <th colspan="2" bgColor="#306090" align="left">
+      <a name="top">BBCode guide</a>
+    </th>
+  </tr>
+  <tr>
+    <td bgColor="#efefef">
+    <b>Introduction</b><br />
+    <a href="#whatis">What is BBCode?</a><br />
+    <br>
+    <b>Text formatting</b><br />
+    <a href="#textformat">How to create bold, italic and underlined text?</a><br />
+    <a href="#combinetags">Can I combine formatting tags?</a><br />
+    <br>
+    <b>Creating links</b><br />
+    <a href="#linking">Linking to another site</a><br />
+    </td>
+  </tr>
+</table>
+
+<table align="center" width="550">
+  <tr>
+    <th colspan="2" bgColor="#306090" align="left">
+      Introduction
+    </th>
+  </tr>
+  <tr>
+    <td bgColor="#efefef">
+      <a name="whatis"><b>What is BBCode?</b></a><br />
+      BBCode is a special implementation of HTML. It is used in popular forum
+      systems such as <a href="http://www.phpbb.net" target="_blank">phpBB</a>
+      and others. BBCode itself is similar in style to HTML: tags are enclosed
+      in square braces [ and ] rather than &lt; and &gt; and it offers greater
+      control over what and how something is displayed.<br />
+      This guide will show you the BBCode tags supported in this guestbook so
+      that you can make your messages look nicer ;).<br /><br />
+      <a href="#top">Back to top</a>
+    </td>
+  </tr>
+</table>
+
+<table align="center" width="550">
+  <tr>
+    <th colspan="2" bgColor="#306090" align="left">
+      Text formatting
+    </th>
+  </tr>
+  <tr>
+    <td bgColor="#efefef">
+      <a name="textformat"><b>How to create bold, italic and underlined text?</b></a><br />
+      BBCode includes tags to allo you to quickly change the basic style of your
+      text. This is achieved in the following ways:<br />
+      <ul>
+        <li>To make a piece of text bold enclose it in <b>[b][/b]</b>, eg.<br /><br />
+        <b>[b]</b>Hello<b>[/b]</b><br /><br />
+        will become <b>Hello</b><br /><br />
+        <li>For underlining use <b>[u][/u]</b>, for example:<br /><br />
+        <b>[u]</b>Good Morning<b>[/u]</b><br /><br />
+        becomes <u>Good Morning</u><br /><br />
+        <li>To italicise text use <b>[i][/i]</b>, eg.<br /><br />
+        This is <b>[i]</b>Great!<b>[/i]</b><br /><br />
+        would give This is <i>Great!</i>
+      </ul>
+      <br /><br />
+      <a href="#top">Back to top</a>
+      <hr>
+      <b><a name="combinetags">Can I combine formatting tags?</a></b><br />
+      Yes, of course you can; for example you may write:<br /><br />
+      <b>[u][b]</b>LOOK AT <b>[i]</b>ME!<b>[/i][/b][/u]</b><br /><br />
+      this would output <u><b>LOOK AT <i>ME!</i></b></u>
+      <br><br>
+      <a href="#top">Back to top</a>
+    </td>
+  </tr>
+</table>
+
+<table align="center" width="550">
+  <tr>
+    <th colspan="2" bgColor="#306090" align="left">
+      Creating links
+    </th>
+  </tr>
+  <tr>
+    <td bgColor="#efefef">
+    <b><a name="linking">Linking to another site</a></b><br />
+    YapGB BBCode supports a number of ways of creating URIs, Uniform Resource
+    Indicators better known as URLs.<br />
+    <ul>
+      <li>The first of these uses the <b>[url=][/url]</b> tag; whatever you type
+      after the = sign will cause the contents of that tag to act as a URL.
+      For example, to link to YapGB official site you could use:<br /><br />
+      <b>[url=http://yapgb.sourceforge.net/]</b>Visit YapGB site!<b>[/url]</b><br /><br />
+      This would generate the following link,
+      <a href="http://yapgb.sourceforge.net/" target="_blank">Visit YapGB site!</a>
+      You will notice the link opens in a new window so the user can continue
+      browsing the guestbook if they wish.<br /><br /></li>
+      <li>If you want the URL itself displayed as the link you can do this by
+      simply using:<br /><br /></li>
+      <b>[url]</b>http://yapgb.sourceforge.net/<b>[/url]</b><br /><br />
+      This would generate the following link:
+      <a href="http://yapgb.sourceforge.net/" target="_blank">http://yapgb.sourceforge.net/</a>
+      <br><br>
+      <li>The same thing applies equally to email addresses; but this time you
+      use the <b>[email][/email]</b> tags:<br /><br />
+      <b>[email=no.one@domain.adr]</b>Send me a message!<b>[/email]</b><br /><br />
+      will generate this email link: <a href="mailto:no.one@domain.adr">Send me a message!</a>.
+      <br /><br /></li>
+      <li>And you can let the email be the link text by using:<br /><br />
+      <b>[email]</b>no.one@domain.adr<b>[/email]</b><br /><br />
+      which will output <a href="mailto:no.one@domain.adr">no.one@domain.adr</a>.</li>
+    </ul>
+      <br /><br />
+      <a href="#top">Back to top</a>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

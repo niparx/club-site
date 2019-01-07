@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title><!--GB_TITLE-->: Modifying an entry</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="styleSheet" href="themes/melody1/style.css" type="text/css" />
+</head>
+
+<body bgColor="#ffffff">
+<table bgColor="#306090" align="center" width="100%">
+  <tr>
+    <th align="left" class="title">
+      <!--GB_TITLE-->
+    </th>
+    <td align="right">
+      <a href="<!--GB_INDEX-->" title="View entries"><img src="themes/melody1/gbmsgs.gif" border="0" alt="View entries" /></a>
+      <a href="<!--GB_SITEINDEX-->" title="Back to the site"><img src="themes/melody1/gbexit.gif" border="0" alt="Back to the site" /></a>
+    </td>
+  </tr>
+</table>
+<br />
+
+<table align="center" width="70%">
+  <form action="gbadmin.php" name="updateEntry" method="post">
+  <input type="hidden" name="action" value="update" />
+  <input type="hidden" name="date" value="<!--GB_ENTRYDATEINT-->" />
+  <input type="hidden" name="id" value="<!--GB_ENTRYID-->" />
+  <tr>
+    <th colspan="2" bgColor="#306090" align="left">
+      Admin: modify entry
+    </th>
+  </tr>
+  <tr>
+    <td bgColor="#efefef">
+      <br />
+      <table align="center">
+        <tr>
+          <td width="20%" align="right">
+            Name:
+          </td>
+          <td width="80%">
+            <input type="text" name="name" size="35" value="<!--GB_ENTRYNAME-->" />
+          </td>
+        </tr>
+        <tr>
+          <td width="20%" align="right">
+            Email:
+          </td>
+          <td width="80%">
+            <input type="text" name="email" size="35" value="<!--GB_ENTRYEMAIL-->" />
+          </td>
+        </tr>
+        <tr>
+          <td width="20%" align="right">
+            Your site:
+          </td>
+          <td width="80%">
+            <input type="text" name="url" size="35" value="<!--GB_ENTRYURL-->" />
+          </td>
+        </tr>
+        <tr>
+          <td colSpan="2" align="center">
+            Your message:<br>
+            <font size="-2">(Allowed HTML tags: <!--GB_ALLOWEDTAGS-->)</font><br>
+            <textarea name="message" rows="6" cols="55"><!--GB_ENTRYMESSAGE--></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colSpan="2" align="center">
+          <!-- NOT NEEDED ANYMORE SINCE VERSION 0.6
+            Admin password:
+            <input type="password" size="15" name="passwd" />-->
+           <input type="submit" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  </form>
+</table>
+
+<center>
+<br /><br />
+<!--GB_INFO-->
+</center>
+
+</body>
+
+</html>

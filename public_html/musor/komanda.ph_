@@ -1,0 +1,430 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+  
+  <meta content="text/html; charset=windows-1257" http-equiv="content-type"><title>ROTALIS (futbolo ir sporto klubas) — KOMANDA</title>
+  
+
+  
+  
+  <link href="rotalis.css" rel="stylesheet" type="text/css"></head><body leftmargin="0" topmargin="0" style="background-color: White; background-image: url(bkg.jpg);" marginheight="0" marginwidth="0">
+<!-- ImageReady Slices (cover.psd) -->
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0" width="852">
+
+  <tbody>
+    <tr>
+      <td> <img src="images/cover_01.jpg" alt="" height="25" width="100"></td>
+      <td> <img src="images/cover_02.jpg" alt="" height="25" width="150"></td>
+      <td align="right"> <font color="Green"><b>Sporto ir futbolo
+klubas "ROTALIS"</b></font></td>
+      <td> <img src="images/cover_04.jpg" alt="" height="25" width="184"></td>
+    </tr>
+    <tr>
+      <td> <img src="images/cover_05.jpg" alt="" height="105" width="100"></td>
+      <td> <img src="images/cover_06.jpg" alt="" height="105" width="150"></td>
+      <td> <img src="images/cover_07.jpg" alt="" height="105" width="418"></td>
+      <td> <img src="images/cover_08.jpg" alt="" height="105" width="184"></td>
+    </tr>
+    <tr>
+      <td> <img src="images/cover_09.jpg" alt="" height="24" width="100"></td>
+      <td> <img src="images/cover_10.jpg" alt="" height="24" width="150"></td>
+      <td> <img src="images/cover_11.jpg" alt="" height="24" width="418"></td>
+      <td> <img src="images/cover_12.jpg" alt="" height="24" width="184"></td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#f2f9fc" valign="top"><br>
+      </td>
+      <td align="center" valign="top">&nbsp;</td>
+      <td align="left" bgcolor="#f2f9fc" valign="top">&nbsp;</td>
+      <td align="center" bgcolor="#f2f9fc" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#f2f9fc" valign="top"><br>
+      </td>
+      <td align="center" valign="top">&nbsp;</td>
+      <td align="left" bgcolor="#f2f9fc" valign="top">&nbsp;</td>
+      <td align="center" bgcolor="#f2f9fc" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#f2f9fc" valign="top"><br>
+      </td>
+      <td align="center" valign="top">&nbsp;</td>
+      <td align="left" bgcolor="#f2f9fc" valign="top">&nbsp;</td>
+      <td align="center" bgcolor="#f2f9fc" valign="top">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#f2f9fc" valign="top"><br>
+      </td>
+      <td align="center" valign="top" width="150"> <br>
+      <br>
+<? include("meniu.php"); ?><br>
+      <br>
+      </td>
+      <td align="left" bgcolor="#f2f9fc" valign="top" width="418">
+      <table border="0" cellpadding="10" cellspacing="10" width="100%">
+        <tbody>
+          <tr>
+            <td>
+            <h1>KOMANDA '2016</h1>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <a name="1993"></a><br>
+      <br>
+      <table align="center" border="1" width="90%">
+        <tbody>
+          <tr>
+            <td colspan="3" align="center"><b>Vyrų komanda</b></td>
+          </tr>
+          <tr>
+            <td width="15"><b>#</b></td>
+            <td width="277"><b>&nbsp; Vardas, pavardė</b></td>
+            <td width="62"><b>&nbsp; Pozicija</b></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td style="height: 20px;">Sergej Babincev <br>
+            </td>
+            <td>vartininkas
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><b style="color: rgb(68, 96, 135); font-family: Verdana,Arial,ArialCyr,Tahoma; font-size: 10.6667px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; background-color: rgb(242, 249, 252);">&nbsp;</b>Artūras Semež
+            </td>
+            <td>vartininkas
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Deivydas Gedvilas <br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Albert Bogdan (k)<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Aleksej Grigorjev<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Tautvydas Svidras<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Vidmantas Kuzmickas<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Aleksandras Fominas<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Domantas Žukauskas <br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Eimantas Skendelis<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Arnoldas Gerasimovas<br>
+            </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Evaldas Rukas <br>
+            </td>
+            <td>vartininkas
+</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Valdas Saulenas </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Arturas Borscevskis </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Paulius Sakalis&nbsp;&nbsp;&nbsp; </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>Saulius Vaiginas </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Viktor Mazurkevic </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Žygimantas Okulevičius</td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>Egidijus Osetrovas </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>Vasilij Novickov </td>
+            <td>puolėjas
+            </td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>Arnold Zeltuchin </td>
+            <td>puolėjas
+            </td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>Justinas Ruginis </td>
+            <td>puolėjas
+            </td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>Arturas Mockus&nbsp;&nbsp; </td>
+            <td>puolėjas
+            </td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>Kornielijus&nbsp; Kairys </td>
+            <td>saugas</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>Dovydas Svita<br>
+            </td>
+            <td>saugas
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><b>&nbsp; Komandos vyr. treneris : Viktoras
+Osetrovas<br>
+&nbsp; treneriai: Arūnas Adomėnas, Artūras Semež</b></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <a name="1994"></a><br>
+      <br>
+      <br>
+      <br>
+      <a name="1997"></a><br>
+      <table align="center" border="1" width="90%">
+        <tbody>
+          <tr>
+            <td colspan="3" align="center"><b>2008 m. g. grupė</b></td>
+          </tr>
+          <tr>
+            <td width="15"><b>#</b></td>
+            <td width="300"><b>&nbsp; Vardas, pavardė</b></td>
+            <td width="60"><b>&nbsp; Pozicija</b></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Ernestas Baubinas<br>
+            </td>
+            <td>vartininkas</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ainis Gedvilas<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Kristijonas Dovydaitis<br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Kajus Mikoliunas </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Bogdan Fiodorov<br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Kiril Kosov<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Damin Puchinskij<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Augustinas Subotkevicius<br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Karolis Barauskas<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Ernest Sinkevič
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td colspan="3"><img src="nulis.gif" alt="" border="0" height="1" width="20"><b>Komandos vyr. treneris: Nerijus Kuzmickas </b></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      <table align="center" border="1" width="90%">
+        <tbody>
+          <tr>
+            <td colspan="3" align="center"><b>2009/2010 m. g. grupė</b></td>
+          </tr>
+          <tr>
+            <td width="15"><b>#</b></td>
+            <td width="300"><b>&nbsp; Vardas, pavardė</b></td>
+            <td width="60"><b>&nbsp; Pozicija</b></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Daniil Koorits <br>
+            </td>
+            <td>vartininkas</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Gvidas Godliauskas<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Alan Kristian Logunov<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Nikita Parsikovas&nbsp;&nbsp; <br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Rolandas Domukaitis <br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Titas Kurpis <br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Erik Korobov<br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Nikita Petunov&nbsp;&nbsp; <br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Martinas Zablotskis&nbsp; <br>
+            </td>
+            <td>puolėjas</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Boris Dolgin <br>
+            </td>
+            <td>gynėjas</td>
+          </tr>
+          <tr>
+            <td colspan="3"><img src="nulis.gif" alt="" border="0" height="1" width="20"><b>Komandos vyr. treneris : Arunas Adomenas </b></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      </td>
+      <td align="center" bgcolor="#f2f9fc" valign="top" width="184"> <br>
+      <br>
+      <br>
+	  <br>
+      	<? include("dr.html"); ?><br> </td>
+    </tr>
+    <tr>
+      <td background="images/pol1.jpg" height="29" width="100"> <img src="images/spacer.gif" alt="" height="29" width="100"></td>
+      <td align="center" height="29" width="150"><a href="mailto:gera@irzhi.com">© 2007 F.K. ROTALIS</a></td>
+      <td background="images/pol1.jpg" height="29" width="418"> <img src="images/spacer.gif" alt="" height="29" width="418"></td>
+      <td background="images/pol1.jpg" height="29" width="184"> <img src="images/spacer.gif" alt="" height="29" width="184"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f2f9fc"> <br>
+      </td>
+      <td bgcolor="White"> <img src="images/cover_18.jpg" alt="" height="19" width="150"></td>
+      <td bgcolor="#f2f9fc"> <br>
+      </td>
+      <td bgcolor="#f2f9fc"> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- End ImageReady Slices -->
+</body></html>

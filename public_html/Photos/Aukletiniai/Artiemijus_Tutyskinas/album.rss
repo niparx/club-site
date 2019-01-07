@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Artiemijus Tutyškinas</title>
+   	<link>../..</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+        <item>
+            <title>fotki 416</title>
+            <link>slides/fotki 416.JPG#</link>
+            <pubDate>Fri, 01 Mar 2013 22:08:35 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/fotki 416.JPG" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/fotki 416.JPG" width="1024" height="768"/>
+            <jalbum:exif originalDate="13.2.23 14.22" cameraMake="Canon" cameraModel="Canon PowerShot SD770 IS"/>
+            <guid isPermaLink="false">slides/fotki 416.JPG</guid>
+        </item>
+        <item>
+            <title>fotki 301</title>
+            <link>slides/fotki 301.JPG#</link>
+            <pubDate>Fri, 01 Mar 2013 22:08:35 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/fotki 301.JPG" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/fotki 301.JPG" width="768" height="1024"/>
+            <jalbum:exif originalDate="12.10.21 11.38" cameraMake="Canon" cameraModel="Canon PowerShot SD770 IS"/>
+            <guid isPermaLink="false">slides/fotki 301.JPG</guid>
+        </item>
+        <item>
+            <title>2012-09-13 21.04.34</title>
+            <link>slides/2012-09-13 21.04.34.jpg#</link>
+            <pubDate>Fri, 01 Mar 2013 22:08:35 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2012-09-13 21.04.34.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/2012-09-13 21.04.34.jpg" width="768" height="1024"/>
+            <jalbum:exif originalDate="12.9.13 19.04" cameraMake="SAMSUNG            " cameraModel="GT-I9001"/>
+            <guid isPermaLink="false">slides/2012-09-13 21.04.34.jpg</guid>
+        </item>
+    </channel>
+</rss>

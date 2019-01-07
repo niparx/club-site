@@ -1,0 +1,9 @@
+AUTHOR
+- José Jorge Enríquez <jenriquez[at]users[.]sourceforge[.]net>
+
+CONTRIBUTORS
+- Burkhard Masseida <reisswolf_nospam [AT] otzenpunkrock[.]de>
+  Fixed javascript injection flaw in BBCode implementation.
+- Michael Marcon (aka) cmic
+  Translated version 0.3.1 to French (the whole code!), corrected several bugs
+  and created the plouves theme.

@@ -1,0 +1,230 @@
+CHANGES LOG
+~~~~~~~~~~~
++ new feature
+- corrected bug
+* comments
+
+0.7.2
+  + This version includes three translated gb_lang files: Dutch, Italian and
+    Spanish, they're located within lang/ folder.
+  + Email and url links are now enabled separately.
+  - Allowed HTML tags were not working, now they work again.
+  - In Internet Explorer 6 (and later), confirmation code was not shown
+    (when working as image) if the guestbook was included in a frame from
+    an external url. It was caused by IE default third party cookies settings,
+    it has been fixed in this version of YapGB but not enabled by default, you'll
+    need to open yapgb.php file and uncomment line number 2 by deleting the two
+    slashes (/) at the beginning of the instruction:
+    //header('P3P: CP="CAO PSA OUR"');
+    So you'll have something like this:
+    header('P3P: CP="CAO PSA OUR"');
+0.7.1
+  - If there was an error in signing form and GD library was not available,
+    confirmation code was not shown.
+    There is no problem if GD library is available since the bug occured only
+    when trying to show confirmation code as text only, not as an image.
+0.7
+  + Added the option to require the user to enter a confirmation code when
+    signing the guestbook. Since previous "anti-spam" options didn't work
+    completely, this will the best option to prevent automated signing of the
+    guestbook.
+  + Email and URL links are optinally shown to visitors, they're always shown
+    to administrator.
+  + New error notification method. Errors are shown on signing page, signing form
+    is automatically filled in with previously entered data.
+  - It was possible to post empty name/message entries.
+
+0.6.1
+  - Referer checking is disabled when it's an empty value. Some browsers don't
+    create this value and some users wouldn't be able to sign the guestbook even
+    when coming from the guestbook sign page (when $cfgEnableTrustedURIs is set
+    to 1).
+  + Added some session vars creation when showing the sign page, these session
+    variables are checked when adding a new entry, this will help assure the user
+    has visited the sign page. This is a quick fix because the trusted URIs feature
+    is not helping to prevent spam since it relies on the HTTP_REFERER variable
+    (this variable keeps the referer page, but it depends on the user's agent can be
+    modified by the user or may not be present, so it is not useful).
+  + Added a new temp_signsuccesful.html file to the theme structure, it will be used
+    for showing a sign successful message after users have signed the guestbook.
+
+0.6
+  * All YapGB files are now saved with UTF-8 codification and in Unix format
+    (new lines are \n and not \r\n as in DOS/Windows).
+  * All guestbook functions are now "gb" prefixed, as in gbYapGBInfo();
+  * Guestbook files are now "gb" prefixed: config.php, func.php, admin.php
+    and lang_xx.php are now gbconfig.php, gbfunc.php, gbadmin.php and gblang_xx.php.
+  * Configuration variables are now "$cfg" prefixed.
+  * Moved most YapGB messages to a separate file (gblang_en.php), so
+    translation/customization should be easier now.
+  - Burkhard Masseida fixed javascript injection flaw in BBCode implementation
+    (THANK YOU!). You can contact him at <reisswolf_nospam [AT] otzenpunkrock.de>.
+  + Administrator must login before editing/deleting entries (so password will be
+    supplied just once, not every time an entry would be edited).
+    Now temp_message.html theme files should include the new
+    <!--GB_ENTRYADMINLINK-->
+    GB_TAG, it will be replaced by a link to the edit/delete page but only when
+    administrator has logged in.
+    This administration link will try to use a gbadminlink.gif image within current
+    theme's directory. Themes included with this release (melody1 and gbwhite) have been
+    updated and already include it.
+  + Added a list of trusted URIs, to prevent remote spam scripts attacks.
+  + Added a "minimun wait" time, so users can't add another post after posting once.
+  + Added moderation queue option.
+  + Added <!--GB_ENTRYEMAILLINK--> and <!--GB_ENTRYURLLINK--> GB_TAGS, these should
+    be used in temp_message.html to show links to entries' email and URL links. These
+    tags will show links only when the entry includes them.
+    The links provided by these tags will look for gbemail.gif and gburl.gif image files
+    within current themes directory.
+
+0.5.1 (Nov 7th, 2004)
+  - Entries could not be deleted with register_globals disabled.
+    Thanks to Michele Bugliaro Goggia for helping me find it.
+
+0.5 (Nov 2nd, 2004)
+  + YapGB now supports smilies and BBCode.
+    Smilies and BBCode functions are enabled through configuration variables
+    in config.php.
+  + Added the help.php file to YapGB structure. This file will be used for
+    showing some help hints to users signing the guestbook. Currently it
+    includes information about the BBCode available in YapGB.
+  + Improved security when deleting entries. Now the date field is checked
+    to avoid wrong deletion (it was low probable, but could happen if two
+    people could access the admin page and were deleting entries at the
+    same time).
+    Every temp_admin.html file now includes the line
+    <input type="hidden" name="date" value"<!--GB_ENTRYDATEINT-->">
+    so that the date field (in integer format) is passed to the deletion
+    script. Before deleting and entry, the date is checked against the entry
+    being deleted, if it does not match, the entry can not be deleted.
+    You must add this line to your current temp_admin.html theme file, if not,
+    you won't be able to delete entries.
+  - Corrected a bug with pagination links: the final page number was being
+    omitted, now it appears correctly. Thanks to Dan Edwards for the
+    correction.
+  * melody1 theme has been considered as the "default" theme. If a temp_xx.html
+    file does not exist in the current theme folder, YapGB will use the one
+    in themes/melody1/ instead.
+
+0.4.2 (Aug 22, 2004)
+  + Custom timezone option.
+  + Added an option to notify admin of new posts added.
+  + Small modifications to email and url checking functions.
+  - Corrected the "bug" with the JavaScript function inside themes that
+    overrided the "email not necessary" PHP command. Now the JavaScript
+    function only checks for the name and message fields, but the email
+    checking can be enabled by uncommenting some lines in the script, it
+    can be done by editing the temp_body.html theme file.
+  * The included empty entries text file is now named entries_empty.txt
+    in order to avoid problems with existing entries.txt files from
+    earlier versions (this mimizes the possibility of losing your entries
+    if you were upgrading from a previous version).
+  + A new theme: gbwhite.
+  * This release includes only two themes: melody1 and gbwhite (new). Other
+    themes can be downloaded at http://www.hewop.com/~yapgb/themes.php.
+
+0.4.1 (May 26, 2004)
+  + Added email and url checking inside the PHP script. The script did not
+    include these functions before, email and url were tested using a
+    small function written in JavaScript, which is really useful and fast,
+    but not secure since someone could easily crash the guestbook.
+    I'd recommend to still use the JavaScript function since it is really
+    fast (it executes inmediately on users' browsers, so they don't need
+    to wait until the data is sent and checked by the server), but now
+    YapGB is more secure since it will internally make sure that the
+    introduced email and/or url are valid.
+
+0.4 (May 19, 2004)
+  * YapGB v0.4 is being released under the terms of the GNU General
+    Public License, see the enclosed license.txt file for full details.
+  - Back-slashes bug has been finally fixed. Back-slashes won't appear on
+    new entries, but if you have an entries file from previous versions and
+    still see the slashes, you'll have to edit those messages by yourself
+    (just use the modify option).
+  + Added an option to "hide" visitors' emails. Instead of showing
+    mymail@mydomain.com it will be mymail [at] mydomain [dot] com
+  + Added a new func.php file where all YapGB functions will be located.
+  + Added message variables to the config.php. I'm thinking of having
+    language files for translating YapGB messages.
+  + Pagination improved a bit, now YapGB does not show links to all pages.
+    It is useful for guest books with lots of entries.
+  + Three more date GB_TAGS: <!--GB_ENTRYDAYNAME--> (full name of day),
+    <!--GB_ENTRYMONTHNAME--> (full month name) and <!--GB_ENTRYYEARFULL-->
+    (year in four digits format).
+  + Added a word censoring function, it is really simple and will be
+    improved in a future release.
+  + Added a word lenght limit function, now you can set the maximum lenght
+    of words using the $gbMaxWordLenght variable.
+  + This release includes a new theme: "plouves" by Michael Marcon (aka cmic).
+    Note: all text in theme is in French.
+
+0.3.1 (Jan 20th, 2004)
+  - Corrected the page bug when register_globals is disabled. It was not
+    modified to work with register_globals disabled, now it is.
+
+0.3 (Jan 16th, 2004)
+  + Allows modification of entries (date can't be edited).
+  + Added a temp_modify.html file to the theme structure, it is used
+    by the modify entry option. Also, temp_admin.html has a small
+    change to let select between 'modify' and 'delete' actions.
+  + Added a <!--GB_ENTRYDATEINT--> special tag, it is used in
+    temp_modify.html file for getting the date of the entry in integer
+    format, since the update option needs it in order to correctly update
+    the entry.
+  - Corrected bug when showing quotes ("), single quotes ('), back
+    slashes (\) and vertical bars (|).
+  + Updated 'melody1' theme, added the new temp_modify.html file.
+  * Changed all references to $PHP_SELF in yapgb.php to $gbIndex (this
+    variable is defined in config.php).
+  * Now YapGB should work correctly with register_globals disabled
+    (register_globals is a PHP configuration variable defined in the
+    php.ini file.)
+  * Changed admin.php structure (a bit).
+  + HTML tags in name, email and url fields are now completely eliminated,
+    they were not in previous version. HTML tags in these fields (name, email
+    and url) are completely stripped, it's a matter of security. Remember
+    that you can define which HTML tags can be used in the message field with
+    the variable $gbAllowedTags in config.php.
+  + Two new themes: 'geored' and 'geogreen'.
+
+0.21 (Jan 11th, 2004)
+  - Deleted debugging instructions, such as the numbers appearing
+    after every message entry, I used them for testing purposes, but
+    forgot to delete them before releasing the files :P.
+
+0.2 (Jan 6th, 2004)
+  - Corrected a bug when deleting entries. I noticed this bug when
+    I was just about to release YapGB for download. When selecting
+    an entry in order to delete it, the admin.php file needs the
+    line number (id) of the entry in the file, but if at the moment
+    before deleting it a new entry was added, all of the entries
+    change line number and a wrong entry would be deleted. Now new
+    entries are added to the end of the storing file (appended) so
+    that all previous entries keep their line number (until one is
+    deleted, that is).
+  - Corrected a strange behaviour when deleting entries: after
+    deleting an entry some "strange" characters would appear at the
+    end of the lines, it was because the entries were acquired by using
+    the file() function, and to delete an entry all entries starting
+    at the deleted one would take the value of the next one, then
+    the lines array was saved again to the file, in this process
+    some characters were introduced. Actually, it wasn't a problem,
+    since the guest book worked with no problems, but when opening the
+    entries file in WorPad (not NotePad) or similar many blank lines
+    would appear.
+  * This is a beta version, v1.0 will appear after testing this one
+    for a while.
+
+0.1
+  * First public release (beta stage) as YapGB.
+  + Plain text file for storing book entries.
+  + Theme system for appeareance customization.
+     This is an improvement to templates from previous versions.
+  + Some HTML tags allowed: <b>, <i>, <u>, <ul>, <ol> and <li>.
+
+geoBook 0.3 and previous
+  * Last version to use mySQL database.
+  * MySQL database for storing book entries.
+  * Custom appearance through temp_x.html files.
+  * Allows deletion of messages with a password.
+  * No HTML tags allowed.

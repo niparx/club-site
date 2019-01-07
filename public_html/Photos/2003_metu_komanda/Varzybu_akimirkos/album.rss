@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Varžybų akimirkos</title>
+   	<link>../..</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+        <item>
+            <title>IMG_1837</title>
+            <link>slides/IMG_1837.JPG#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:43 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_1837.JPG" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/IMG_1837.JPG" width="700" height="467"/>
+            <guid isPermaLink="false">slides/IMG_1837.JPG</guid>
+        </item>
+    </channel>
+</rss>

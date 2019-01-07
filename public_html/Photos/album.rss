@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>SFK Rotalis</title>
+   	<link>.</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+    	<jalbum:link rel="sub" href="2003_metu_komanda/album.rss" />   	
+    	<jalbum:link rel="sub" href="Austrija 2010/album.rss" />   	
+    	<jalbum:link rel="sub" href="Ostrolenko 2011/album.rss" />   	
+    	<jalbum:link rel="sub" href="Svedija_2010/album.rss" />   	
+    	<jalbum:link rel="sub" href="II_Lyga_2012_sezonas/album.rss" />   	
+    	<jalbum:link rel="sub" href="Aukletiniai/album.rss" />   	
+        
+    </channel>
+</rss>

@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<LINK href="mb.css" rel=stylesheet type=text/css>
+</head>
+
+<body bgcolor="White">
+<table width="90%" border="0" cellpadding="5" align="center">
+		
+<tr><td background="hdot.gif"></td></tr>
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="index.php"><b>Apie klubа</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="tikslai.php"><b>Mыsш tikslai</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="news.php"><b>Anonsai / Naujienos</b></a></td>
+</tr>
+
+<tr><td background="hdot.gif"></td></tr>
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="komanda.php"><b>Komanda</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="varzibos-a.php"><b>Rezultatai</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="rezultatai.php"><b>Mыsш pasiekimai</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+<!--
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="books/yapgb.php">Sveиiш knyga</a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+-->
+
+<tr>
+  <td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="Photos/index.html" ><b>Galerija</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="contact.php"><b>Kontaktai</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+
+<tr>
+	<td onmouseover='this.style.background="#F2F9FC"' onmouseout='this.style.background="#FFFFFF"'><a href="sponsor.php"><b>Galite paremti</b></a></td>
+</tr>
+<tr><td background="hdot.gif"></td></tr>
+
+<tr><td>&nbsp;</td></tr>
+<tr><td align="center"><br><img src="images/football2.gif" width="101" height="80" alt="" border="0"></td></tr>
+<tr><td>&nbsp;</td></tr>
+
+<tr><td background="hdot.gif"></td></tr>
+<tr><td><b>Mыsш partneriai-remлjai:<b></td></tr>
+
+<tr><td>
+	<img border="0" src="partners/logigama_logo_small.jpg" alt="UAB Logigama"/>
+</td></tr>
+
+<tr><td>
+	<a href="http://www.zetalaw.lt" target="_blank" title="">
+		<img border="0" src="partners/zetalaw_logotipas_small.png" alt="Zeta Law"/>
+	</a>
+</td></tr>
+
+
+<tr><td>
+	<a href="http://www.zaliagiria.lt" target="_blank" title="">
+		<img border="0" src="partners/zaliagiria_small.png" alt="Юalia giria"/>
+	 </a>
+</td></tr><tr><td>
+	<a href="http://www.fdg.lt/lt/pagrindinis" target="_blank" title="">
+		<img border="0" src="partners/FD Group.jpg" alt="FD Group"/>
+	 </a>
+</td></tr>
+
+
+<tr><td>
+	<a href="http://www.paysera.lt" target="_blank" title="">
+		<img border="0" src="partners/paysera_logo_201404_.jpg" alt="Paysera"/>
+	   </a>
+</td></tr>
+
+<tr><td>
+	<a href="http://www.hummel.net" target="_blank" title="">
+		<img border="0" src="partners/hummel_logo_small.jpg" alt="Hummel"/>
+	</a>
+</td></tr>
+
+
+
+
+<tr><td background="hdot.gif"></td></tr>
+
+
+<tr><td><br><br></td></tr>
+</table>

@@ -1,0 +1,100 @@
+A {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #446087; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #121212;
+	TEXT-DECORATION: inherit
+}
+A.meniu {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #5a5a5a; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.meniu:hover {
+	COLOR: #121212; TEXT-DECORATION: underline
+}
+.meniuselect {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #194288; FONT-FAMILY: Tahoma
+}
+BODY {
+	FONT-SIZE: 10pt; COLOR: COLOR: #ccff00; FONT-FAMILY: Verdana, Arial, ArialCyr,  Tahoma
+}
+H1 {
+	BORDER-BOTTOM : #009900 1px solid;
+	BORDER-TOP : #009900 1px solid;
+	COLOR : Green;
+	PADDING-BOTTOM : 2px;
+	PADDING-LEFT : 2px;
+	PADDING-RIGHT : 2px;
+	PADDING-TOP : 2px;
+	font-family : cursive;
+	text-decoration : none;
+	font-size : 16px;
+	font-style : normal;
+	font-weight : normal;
+	text-align : center;
+	TEXT-INDENT : 0px;
+}
+
+H2 {
+		COLOR : #446087;
+	PADDING-BOTTOM : 2px;
+	PADDING-LEFT : 2px;
+	PADDING-RIGHT : 2px;
+	PADDING-TOP : 2px;
+	font-family : Verdana, Arial;
+	text-decoration : underline;
+	font-size : 11px;
+	font-style : normal;
+	font-weight : bold;
+	text-align : center;
+	TEXT-INDENT : 10px;
+}
+
+H3 {
+	BORDER-BOTTOM : #009900 1px solid;
+	BORDER-TOP : #009900 1px solid;
+	COLOR : #446087;
+	PADDING-BOTTOM : 2px;
+	PADDING-LEFT : 2px;
+	PADDING-RIGHT : 2px;
+	PADDING-TOP : 2px;
+	font-family : Verdana, Arial;
+	text-decoration : none;
+	font-size : 11px;
+	font-style : normal;
+	font-weight : bold;
+	text-align : center;
+	TEXT-INDENT : 10px;
+}
+
+P {
+	FONT-SIZE: 10pt; COLOR: #446087; FONT-FAMILY: Verdana, Arial, ArialCyr,  Tahoma
+}
+P.lg {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, ArialCyr,  Tahoma
+}
+P.grey {
+	FONT-SIZE: 10pt; COLOR: #a2a2a2; FONT-FAMILY: Verdana, Arial, ArialCyr,  Tahoma
+}
+TD {
+	FONT-SIZE: 10pt; COLOR: #446087; FONT-FAMILY: Verdana, Arial, ArialCyr,  Tahoma
+}
+
+TD.mn {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #5a5a5a; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: Tahoma, Arial, ArialCyr, Verdana; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: Tahoma, Arial, ArialCyr, Verdana; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: Tahoma, Arial, ArialCyr, Verdana; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+.copy {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Tahoma, Arial, ArialCyr, Verdana
+}
+News{
+	BORDER-BOTTOM : #009900 1px solid;
+	COLOR : Green;
+}

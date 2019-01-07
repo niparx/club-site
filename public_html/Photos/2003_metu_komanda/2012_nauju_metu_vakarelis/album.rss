@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>2012 naujų metų vakarėlis</title>
+   	<link>../..</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+        <item>
+            <title>2012_02_24 006</title>
+            <link>slides/2012_02_24 006.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:43 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2012_02_24 006.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/2012_02_24 006.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="11.12.28 20.34" cameraMake="Canon" cameraModel="Canon PowerShot SD770 IS"/>
+            <guid isPermaLink="false">slides/2012_02_24 006.jpg</guid>
+        </item>
+        <item>
+            <title>2012_02_24 008</title>
+            <link>slides/2012_02_24 008.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:43 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2012_02_24 008.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/2012_02_24 008.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="11.12.28 20.34" cameraMake="Canon" cameraModel="Canon PowerShot SD770 IS"/>
+            <guid isPermaLink="false">slides/2012_02_24 008.jpg</guid>
+        </item>
+        <item>
+            <title>2012_02_24 009</title>
+            <link>slides/2012_02_24 009.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:43 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2012_02_24 009.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/2012_02_24 009.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="11.12.28 20.36" cameraMake="Canon" cameraModel="Canon PowerShot SD770 IS"/>
+            <guid isPermaLink="false">slides/2012_02_24 009.jpg</guid>
+        </item>
+        <item>
+            <title>2012_02_24 005</title>
+            <link>slides/2012_02_24 005.jpg#</link>
+            <pubDate>Mon, 25 Feb 2013 10:43:43 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2012_02_24 005.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/2012_02_24 005.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="11.12.28 20.33" cameraMake="Canon" cameraModel="Canon PowerShot SD770 IS"/>
+            <guid isPermaLink="false">slides/2012_02_24 005.jpg</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,198 @@
+/*
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~
+~= YapGB - Yet Another Php Guest Book                              =~
+~= v0.7.1                                                          =~
+~= Aug 4th, 2006                                                   =~
+~= http://yapgb.sourceforge.net/                                   =~
+~=-----------------------------------------------------------------=~
+~= AUTHOR:                                                         =~
+~=    José Jorge Enríquez Rodríguez                                =~
+~=    jenriquez@users.sf.net (redirected email)                    =~
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~
+~= YapGB is a free guestbook system written in PHP that does not   =~
+~= require a database, entries are stored in a plain text file.    =~
+~= Copyright (C) 2003-2005 José Jorge Enríquez Rodríguez           =~
+~=                                                                 =~
+~= This program is free software; you can redistribute it and/or   =~
+~= modify it under the terms of the GNU General Public License     =~
+~= as published by the Free Software Foundation; either version 2  =~
+~= of the License, or (at your option) any later version.          =~
+~=                                                                 =~
+~= This program is distributed in the hope that it will be useful, =~
+~= but WITHOUT ANY WARRANTY; without even the implied warranty of  =~
+~= MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the   =~
+~= GNU General Public License for more details.                    =~
+~=                                                                 =~
+~= You should have received a copy of the GNU General Public       =~
+~= License along with this program; if not, write to the Free      =~
+~= Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, =~
+~= MA  02111-1307, USA                                             =~
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~
+*/
+
+WHAT IS IT?
+~~~~~~~~~~~
+   YapGB is a completely free guestbook system written in PHP.
+
+FEATURES
+~~~~~~~~
+  - Allows deletion/modification of entries.
+  - No database needed (it uses a plain text file).
+  - Fully customizable appearance through a themes system.
+  - Bad words censoring.
+  - Custom guestbook's timezone.
+  - Smilies and BBCode support.
+  - Moderation queue.
+  - Custom sign succesful page.
+
+REQUIREMENTS
+~~~~~~~~~~~~
+   In order to be able tu use YapGB, you need:
+  - access to PHP scripting service,
+  - access to setting file permissions on your web space
+    (only if your host is an Unix based server).
+
+IMPORTANT NOTES
+~~~~~~~~~~~~~~~
+  Version 0.7.x:
+  - Version 0.7 adds the option to require the user to introduce a
+    confirmation code when signing the guestbook, in order to avoid automated
+    signing. This option is enable by default, and requires a new GB_TAG to
+    be included in temp_sign.html file. This new GB_TAG is
+    <!--GB_CONFIRMCODE-->, it will be replaced by a X characters confirmation
+    code.
+  - Version 0.7 has a new error notification method, when the script finds
+    errors in data entered by the user, it reloads the sign page and fills in
+    previously entered data (so that it's not lost as before, annoying the user),
+    and errors are shown using the new <!--GB_SIGNERRORS--> GB_TAG, you can place
+    it wherever you want in temp_sign.html file.
+    In order to allow the script to fill signing form fields automatically, name,
+    email and message input fields in temp_sign.html have been change from:
+
+    <input type="text" name="name" />
+    <input type="text" name="email" />
+    <input type="text" name="url" />
+    <textarea name="message"></textarea>
+
+    to:
+
+    <input type="text" name="name" value="<!--GB_ENTRYNAME--> />
+    <input type="text" name="url" value="<!--GB_ENTRYURL-->" />
+    <input type="text" name="url" value="<!--GB_ENTRYURL-->" />
+    <textarea name="message"><!--GB_ENTRYMESSAGE--></textarea>
+
+  Version 0.6.1:
+  - Version 0.6.1 introduces the ability to show a succesful page after
+    the user has signed the guestbook. This succesful page is loaded from
+    a new temp_signsuccesful.html file located within current theme's
+    directory (or by default from melody1 theme). If you enable this option,
+    you'll need to add this new temp_signsuccesful.html file to your current
+    theme.
+
+  Version 0.6:
+  - YapGB files and functions are "gb" prefixed, as in gbadmin.php or gbYapGBInfo().
+  - temp_message.html should use the new <!--GB_ENTRYADMINLINK--> GB_TAG instead of
+    a direct link to administration interface.
+  - The new <!--GB_ENTRYEMAILLINK--> and <!--GB_ENTRYURLLINK--> GB_TAGs should be used
+    to show entries' email and url links.
+    These GB_TAGS will show email and/or URL links only when they exist. Also, these
+    tags will look for gbemail.gif and gburl.gif images within current theme directory.
+    Themes included with this release (melody1 and gbwhite) have already been updated
+    and work correctly with these changes.
+  - Read the CHANGELOG file in the docs/ directory for a detailed list of changes.
+
+  Version 0.5:
+  - Since version 0.5, temp_admin.html theme files will need this line:
+    <input type="hidden" name="date" value="<!--GB_ENTRYDATEINT-->">
+    within the deleteMessage form.
+    Please add it to your current temp_admin.html theme file to be able
+    to delete entries. Themes included with version 0.5 (melody1 and gbwhite)
+    have already been edited to include it.
+
+INSTALLATION
+~~~~~~~~~~~~
+   Just copy yapgb.php, gbconfig.php, gbadmin.php, gbfunc.php and gbhelp.php files
+  and the lang/, themes/ and smilies/ folders to a directory in your webspace.
+   yapgb.php is the main YapGB file, you can rename it to whatever you like
+  (e.g. guestbook.php) but remember to update the $cfgGBIndex variable in
+  gbconfig.php.
+   Next, you have to create a text file where YapGB will store the entries, or you
+  can just upload the included entries_empty.txt file and rename it to whatever
+  you want.
+   If your site is on an Un*x based server (Linux, FreeBSD, etc.), next step is
+  to set proper file permissions so that YapGB can read/write from/to the necessary
+  files:
+  - themes/, smilies/ and lang/ directories need read permission for "other users".
+  - Entries file needs read and write permissions for "other users".
+   You'll need to use the chmod command to set these permissions, if you don't know
+  how to use chmod, you can find a nice tutorial at:
+  http://www.zachjorgensen.net/za/chmodtutor.html
+  
+   Last step is to edit the configuration variables in gbconfig.php, please read next
+  section before doing so.
+
+CONFIGURATION
+~~~~~~~~~~~~~
+   In order to make YapGB work correctly, you should also edit the
+  gbconfig.php file, open it in a text editor (I recommend you to use
+  a plain text editor such as Notepad, you can use any other as long
+  as you save the file as text only) and look for these lines:
+
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+  # YapGB configuration variables #
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+   Below this message, you'll find YapGB configuration variables, edit
+  them as required (the content is fully commented so you can easily
+  edit it if you don't have any experience with PHP).
+   I strongly reccomend you to edit these ones:
+  - $cfgAdminName and $cfgAdminPass, administrator login data.
+  - $cfgTitle, your guestbook's title.
+  - $cfgEntriesFile, the file to store entries to.
+  - $cfgGBIndex, main YapGB file name (yapgb.php or whatever you renamed it to).
+  - $cfgGBURI, full URL to main YapGB file.
+  - $cfgSiteIndex, your main site index. Used by the "back to site" link.
+
+THEMES
+~~~~~~
+   YapGB lets you modify its appearance through the use of "themes".
+   Read the docs/themeinfo.txt file for detailed information on the themes
+  structure, so that you can either edit the included ones or create
+  your own.
+
+THANKS TO...
+~~~~~~~~~~~~
+   I'd like to say a big THANK YOU to all people listed here, they have
+  either helped to the development of YapGB or being a source of
+  inspiration to me.
+  
+  * Burkhard Masseida
+    Found and fixed javascript injection flaw in YapGB's BBCode implementation.
+  * John Woods
+    For all of his feedback on YapGB. He has a very interesting website,
+    you can visit it at http://www.anzacs.net/
+  * Michael Marcon (aka) cmic
+    He translated version 0.3.1 to French (the whole code!), corrected
+    several bugs and created the plouves theme.
+  * Gloria Ronzón
+    She was my English teacher and one of the nicest people I've ever met.
+    Thanks a lot for the English dictionary, it has been really useful!
+  * Melodysoft http://www.melodysoft.com (in Spanish)
+    For their free guestbook service. melody1 theme is an adaptation of
+    their Melody I design.
+
+LAST NOTES
+~~~~~~~~~~
+   I'd be glad to hear of any feature you would like to be included
+  in YapGB, please send your suggestions, ideas or comments
+  to jenriquez@users.sf.net or add them to the YapGB feedback form
+  at http://yapgb.sourceforge.net/feedback.php.
+
+   Also, you could (and please do so) send any improvements or
+  corrections you make to YapGB, or bugs you may find.
+
+MY APOLOGIES
+~~~~~~~~~~~~
+   English is not my mother language, but I made my best effort on
+  writting the YapGB docs, please forgive any mistake I may have done
+  and let me know of it :).

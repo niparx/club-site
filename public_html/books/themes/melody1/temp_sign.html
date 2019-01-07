@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title><!--GB_TITLE--></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="styleSheet" href="themes/melody1/style.css" type="text/css" />
+<script language="JavaScript">
+<!--
+// Author: José Jorge Enríquez Rodríguez
+// ejorge19@hotmail.com
+// You can use/modify this script as long as you keep these comments
+
+// Placing the cursor on the first field of the form (the name field)
+function doFocus() {
+  document.form.name.focus();
+}
+
+// Checking whether name or and message are empty.
+// Email is not checked here (using JavaScript) since version 0.4.2.
+// If you want to make your users post their email addresses, you can
+// use the $gbEmailRequired variable in config.php. If you want to,
+// you can still use this JavaScript function for checking the email,
+// just uncomment the lines as indicated below.
+function checkFields() {
+  uName = document.form.name.value;
+  uEmail = document.form.email.value;
+  uMessage = document.form.message.value;
+
+  if (uName == "") {
+    alert('Your name name is required.');
+    doFocus();
+    return false;
+  }
+
+  // Delete the lines starting with '/*****' and '*****/' if
+  // you want this JavaScript function to check if the email field
+  // is empty.
+  /***** DELETE THIS LINE IF YOU WANT TO USE THIS FUNCTION!
+  else if (uEmail == "") {
+    alert('You forgot to write your email!');
+    document.form.email.focus();
+    return false;
+  }
+  else if ( (uEmail.indexOf('@') == -1) || (uEmail.indexOf('.') == -1) ) {
+    alert('The email is not correct!');
+    document.form.email.focus();
+    return false;
+  }
+  DELETE THIS LINE IF YOU WANT TO USE THIS FUNCTION! *****/
+
+  else if (uMessage == "") {
+    alert('You forgot to write your message!');
+    document.form.message.focus();
+    return false;
+  }
+  else
+    return true;
+}
+
+function emoticon(text) {
+  var txtarea = document.form.message;
+  text = ' ' + text;
+  if (txtarea.createTextRange && txtarea.caretPos) {
+    var caretPos = txtarea.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? caretPos.text + text + ' ' : caretPos.text + text;
+    txtarea.focus();
+  } else {
+    txtarea.value  += text;
+    txtarea.focus();
+  }
+}
+-->
+</script>
+<script language="JavaScript">
+<!--
+// ******* openHelp function ********
+// It opens a new window with some information about 'option'
+// At the moment BBCode is the only available option :).
+function openHelp(option) {
+  helpWin = open("gbhelp.php?op="+option, "","width=600,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes");
+}
+-->
+</script>
+</head>
+
+<body bgColor="#ffffff" onLoad="doFocus();">
+<table bgColor="#306090" align="center" width="100%">
+  <tr>
+    <th align="left" class="title">
+      <!--GB_TITLE-->
+    </th>
+    <td align="right">
+      <a href="<!--GB_INDEX-->"><img src="themes/melody1/gbmsgs.gif" border="0" alt="View entries" /></a>
+      <a href="<!--GB_SITEINDEX-->"><img src="themes/melody1/gbexit.gif" border="0" alt="Back to the site" /></a>
+    </td>
+  </tr>
+</table>
+<br />
+<table align="center" width="70%">
+  <form action="<!--GB_INDEX-->" name="form" onSubmit="return checkFields();" method="post">
+  <input type="hidden" name="action" value="add" />
+  <tr>
+    <th colspan="2" bgColor="#306090" align="left">
+      Sign
+    </th>
+  </tr>
+  <tr>
+  	<td colspan="2"><!--GB_SIGNERRORS--></td>
+  </tr>
+  <tr>
+    <td bgColor="efefef">
+      <br />
+      <table align="center">
+        <tr>
+          <td width="20%" align="right">
+            <font color="red"><b>*</b></font>Name:
+          </td>
+          <td width="80%">
+            <input type="text" name="name" size="35" value="<!--GB_ENTRYNAME-->" />
+          </td>
+        </tr>
+        <tr>
+          <td width="20%" align="right">
+            Email:
+          </td>
+          <td width="80%">
+            <input type="text" name="email" size="35" value="<!--GB_ENTRYEMAIL-->" />
+          </td>
+        </tr>
+        <tr>
+          <td width="20%" align="right">
+            Your site:
+          </td>
+          <td width="80%">
+            <input type="text" name="url" size="35" value="<!--GB_ENTRYURL-->" />
+          </td>
+        </tr>
+  <tr>
+    <td colSpan="2" align="left"><br><font color="red"><b>*</b></font> Your message:</td>
+  </tr>
+  <tr>
+    <td>
+      <table align="right">
+        <tr>
+          <td>
+            <a href="javascript:emoticon(':D');"><img src="smilies/icon_biggrin.gif" border="0" alt="Very happy" title="Very happy" /></a>
+            <a href="javascript:emoticon(':)');"><img src="smilies/icon_smile.gif" border="0" alt="Smile" title="Smile" /></a>
+            <a href="javascript:emoticon(':(');"><img src="smilies/icon_sad.gif" border="0" alt="Sad" title="Sad" /></a>
+            <a href="javascript:emoticon(':o');"><img src="smilies/icon_surprised.gif" border="0" alt="Surprised" title="Surprised" /></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="javascript:emoticon(':shock:');"><img src="smilies/icon_eek.gif" border="0" alt="Shocked" title="Shocked" /></a>
+            <a href="javascript:emoticon(':?');"><img src="smilies/icon_confused.gif" border="0" alt="Confused" title="Confused" /></a>
+            <a href="javascript:emoticon('8)');"><img src="smilies/icon_cool.gif" border="0" alt="Cool" title="Cool" /></a>
+            <a href="javascript:emoticon(':lol:');"><img src="smilies/icon_lol.gif" border="0" alt="Laughing" title="Laughing" /></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="javascript:emoticon(':x');"><img src="smilies/icon_mad.gif" border="0" alt="Mad" title="Mad" /></a>
+            <a href="javascript:emoticon(':P');"><img src="smilies/icon_razz.gif" border="0" alt="Razz" title="Razz" /></a>
+            <a href="javascript:emoticon(':oops:');"><img src="smilies/icon_redface.gif" border="0" alt="Embarrased" title="Embarrased" /></a>
+            <a href="javascript:emoticon(':cry:');"><img src="smilies/icon_cry.gif" border="0" alt="Crying or very sad" title="Crying or very sad" /></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="javascript:emoticon(':wink:');"><img src="smilies/icon_wink.gif" border="0" alt="Winking" title="Winking" /></a>
+            <a href="javascript:emoticon(':!:');"><img src="smilies/icon_exclaim.gif" border="0" alt="Exclamation" title="Exclamation" /></a>
+            <a href="javascript:emoticon(':?:');"><img src="smilies/icon_question.gif" border="0" alt="Question" title="Question" /></a>
+            <a href="javascript:emoticon(':idea:');"><img src="smilies/icon_idea.gif" border="0" alt="Idea" title="Idea" /></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <font size="-2">Allowed HTML tags: <!--GB_ALLOWEDTAGS--><br />
+      <a href="javascript:openHelp('BBCode');">BBCode</a> enabled.</font><br />
+      <textarea name="message" rows="7" cols="48"><!--GB_ENTRYMESSAGE--></textarea>
+    </td>
+  </tr>
+  <tr>
+  	<td></td><td> <!--GB_CONFIRMCODE--></td>
+  </tr>
+        <tr><td>Confirmation code:</td>
+        	<td >
+        		<input type="text" name="confirmCode" size="4" maxlength="4">
+        	</td>
+        </tr>
+
+        <tr>
+          <td colSpan="2" align="center">
+            <input type="submit" value="Sign guestbook" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  </form>
+</table>
+
+
+<center>
+<br /><br />
+<!--GB_INFO-->
+</center>
+
+</body>
+</html>

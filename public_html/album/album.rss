@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>rotalis bendras</title>
+   	<link>.</link>
+        <generator>jAlbum 12</generator>
+   		<description></description>
+        <jalbum:absolutePath></jalbum:absolutePath>
+        <item>
+            <title>rotalis01</title>
+            <link>slides/rotalis01.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis01.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis01.jpg" width="1024" height="683"/>
+            <jalbum:exif originalDate="Sun, 10 Jan 2016 08:25:47 +0200" cameraMake="Canon" cameraModel="Canon EOS 500D"/>
+            <guid isPermaLink="false">slides/rotalis01.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis02</title>
+            <link>slides/rotalis02.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis02.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis02.jpg" width="400" height="217"/>
+            <guid isPermaLink="false">slides/rotalis02.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis03</title>
+            <link>slides/rotalis03.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis03.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis03.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Sat, 27 Dec 2008 20:47:01 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis03.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis04</title>
+            <link>slides/rotalis04.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis04.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis04.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Tue, 26 Dec 2006 19:18:36 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis04.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis05</title>
+            <link>slides/rotalis05.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis05.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis05.jpg" width="768" height="1024"/>
+            <jalbum:exif originalDate="Fri, 30 Dec 2011 09:48:10 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis05.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis06</title>
+            <link>slides/rotalis06.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis06.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis06.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Fri, 30 Dec 2011 09:47:55 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis06.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis07</title>
+            <link>slides/rotalis07.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis07.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis07.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Fri, 30 Dec 2011 08:16:44 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis07.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis08</title>
+            <link>slides/rotalis08.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis08.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis08.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Thu, 20 Apr 2006 22:21:33 +0300" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis08.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis09</title>
+            <link>slides/rotalis09.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis09.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis09.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Sun, 22 Jan 2006 22:06:57 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis09.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis10</title>
+            <link>slides/rotalis10.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis10.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis10.jpg" width="960" height="576"/>
+            <guid isPermaLink="false">slides/rotalis10.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis11</title>
+            <link>slides/rotalis11.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis11.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis11.jpg" width="960" height="625"/>
+            <guid isPermaLink="false">slides/rotalis11.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis12</title>
+            <link>slides/rotalis12.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis12.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis12.jpg" width="960" height="639"/>
+            <guid isPermaLink="false">slides/rotalis12.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis13</title>
+            <link>slides/rotalis13.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis13.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis13.jpg" width="960" height="720"/>
+            <guid isPermaLink="false">slides/rotalis13.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis14</title>
+            <link>slides/rotalis14.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis14.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis14.jpg" width="1024" height="768"/>
+            <guid isPermaLink="false">slides/rotalis14.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis15</title>
+            <link>slides/rotalis15.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis15.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis15.jpg" width="1024" height="681"/>
+            <guid isPermaLink="false">slides/rotalis15.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis16</title>
+            <link>slides/rotalis16.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis16.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis16.jpg" width="960" height="603"/>
+            <guid isPermaLink="false">slides/rotalis16.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis17</title>
+            <link>slides/rotalis17.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis17.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis17.jpg" width="960" height="521"/>
+            <guid isPermaLink="false">slides/rotalis17.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis18</title>
+            <link>slides/rotalis18.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis18.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis18.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/rotalis18.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis19</title>
+            <link>slides/rotalis19.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis19.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis19.jpg" width="960" height="639"/>
+            <guid isPermaLink="false">slides/rotalis19.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis20</title>
+            <link>slides/rotalis20.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis20.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis20.jpg" width="960" height="639"/>
+            <guid isPermaLink="false">slides/rotalis20.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis21</title>
+            <link>slides/rotalis21.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis21.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis21.jpg" width="960" height="576"/>
+            <guid isPermaLink="false">slides/rotalis21.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis22</title>
+            <link>slides/rotalis22.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis22.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis22.jpg" width="960" height="398"/>
+            <guid isPermaLink="false">slides/rotalis22.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis23</title>
+            <link>slides/rotalis23.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis23.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis23.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Thu, 13 Jul 2006 18:16:19 +0300" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis23.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis24</title>
+            <link>slides/rotalis24.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis24.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis24.jpg" width="960" height="540"/>
+            <guid isPermaLink="false">slides/rotalis24.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis25</title>
+            <link>slides/rotalis25.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis25.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis25.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Thu, 13 Jul 2006 18:18:36 +0300" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis25.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis26</title>
+            <link>slides/rotalis26.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis26.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis26.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Thu, 13 Jul 2006 18:21:15 +0300" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis26.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis27</title>
+            <link>slides/rotalis27.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis27.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis27.jpg" width="768" height="1024"/>
+            <jalbum:exif originalDate="Thu, 13 Jul 2006 18:39:27 +0300" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis27.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis28</title>
+            <link>slides/rotalis28.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis28.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis28.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Thu, 13 Jul 2006 19:42:37 +0300" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis28.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis29</title>
+            <link>slides/rotalis29.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis29.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis29.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Wed, 09 Nov 2016 17:54:39 +0200" cameraMake="HUAWEI" cameraModel="EVA-L19"/>
+            <guid isPermaLink="false">slides/rotalis29.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis30</title>
+            <link>slides/rotalis30.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis30.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis30.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Wed, 09 Nov 2016 17:54:30 +0200" cameraMake="HUAWEI" cameraModel="EVA-L19"/>
+            <guid isPermaLink="false">slides/rotalis30.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis31</title>
+            <link>slides/rotalis31.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis31.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis31.jpg" width="1024" height="576"/>
+            <guid isPermaLink="false">slides/rotalis31.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis32</title>
+            <link>slides/rotalis32.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis32.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis32.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Sun, 19 Feb 2006 12:11:54 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis32.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis33</title>
+            <link>slides/rotalis33.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis33.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis33.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Sat, 26 Dec 2009 12:51:20 +0200" cameraMake="SONY" cameraModel="DSC-H7"/>
+            <guid isPermaLink="false">slides/rotalis33.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis34</title>
+            <link>slides/rotalis34.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis34.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis34.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Wed, 16 Aug 2006 00:03:17 +0300" cameraMake="Canon" cameraModel="Canon PowerShot S2 IS"/>
+            <guid isPermaLink="false">slides/rotalis34.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis35</title>
+            <link>slides/rotalis35.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis35.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis35.jpg" width="547" height="365"/>
+            <guid isPermaLink="false">slides/rotalis35.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis36</title>
+            <link>slides/rotalis36.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis36.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis36.jpg" width="1024" height="681"/>
+            <guid isPermaLink="false">slides/rotalis36.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis37</title>
+            <link>slides/rotalis37.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis37.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis37.jpg" width="800" height="600"/>
+            <guid isPermaLink="false">slides/rotalis37.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis38</title>
+            <link>slides/rotalis38.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis38.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis38.jpg" width="800" height="600"/>
+            <guid isPermaLink="false">slides/rotalis38.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis39</title>
+            <link>slides/rotalis39.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis39.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis39.jpg" width="768" height="1024"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:11:51 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis39.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis40</title>
+            <link>slides/rotalis40.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis40.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis40.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:26:41 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis40.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis41</title>
+            <link>slides/rotalis41.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis41.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis41.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:28:21 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis41.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis42</title>
+            <link>slides/rotalis42.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis42.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis42.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:31:24 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis42.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis43</title>
+            <link>slides/rotalis43.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis43.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis43.jpg" width="768" height="1024"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:38:22 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis43.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis44</title>
+            <link>slides/rotalis44.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis44.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis44.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:53:11 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis44.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis45</title>
+            <link>slides/rotalis45.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis45.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis45.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:54:06 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis45.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis46</title>
+            <link>slides/rotalis46.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis46.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis46.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:56:56 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis46.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis47</title>
+            <link>slides/rotalis47.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis47.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis47.jpg" width="768" height="1024"/>
+            <jalbum:exif originalDate="Mon, 30 Jan 2006 17:57:38 +0200" cameraMake="SONY" cameraModel="DSC-S500"/>
+            <guid isPermaLink="false">slides/rotalis47.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis48</title>
+            <link>slides/rotalis48.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis48.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis48.jpg" width="1024" height="681"/>
+            <guid isPermaLink="false">slides/rotalis48.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis49</title>
+            <link>slides/rotalis49.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis49.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis49.jpg" width="1024" height="681"/>
+            <guid isPermaLink="false">slides/rotalis49.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis50</title>
+            <link>slides/rotalis50.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis50.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis50.jpg" width="1024" height="681"/>
+            <guid isPermaLink="false">slides/rotalis50.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis51</title>
+            <link>slides/rotalis51.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis51.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis51.jpg" width="1024" height="768"/>
+            <guid isPermaLink="false">slides/rotalis51.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis52</title>
+            <link>slides/rotalis52.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis52.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis52.jpg" width="1024" height="681"/>
+            <guid isPermaLink="false">slides/rotalis52.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis53</title>
+            <link>slides/rotalis53.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis53.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis53.jpg" width="800" height="600"/>
+            <guid isPermaLink="false">slides/rotalis53.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis54</title>
+            <link>slides/rotalis54.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis54.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis54.jpg" width="800" height="600"/>
+            <guid isPermaLink="false">slides/rotalis54.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis55</title>
+            <link>slides/rotalis55.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis55.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis55.jpg" width="800" height="600"/>
+            <guid isPermaLink="false">slides/rotalis55.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis56</title>
+            <link>slides/rotalis56.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis56.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis56.jpg" width="800" height="600"/>
+            <guid isPermaLink="false">slides/rotalis56.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis57</title>
+            <link>slides/rotalis57.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis57.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis57.jpg" width="1024" height="681"/>
+            <guid isPermaLink="false">slides/rotalis57.jpg</guid>
+        </item>
+        <item>
+            <title>rotalis58</title>
+            <link>slides/rotalis58.jpg</link>
+            <pubDate>Fri, 05 May 2017 15:25:57 +0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/rotalis58.jpg" width="200" height="150"/>
+            <media:content type="image/jpeg" url="slides/rotalis58.jpg" width="547" height="365"/>
+            <guid isPermaLink="false">slides/rotalis58.jpg</guid>
+        </item>
+    </channel>
+</rss>

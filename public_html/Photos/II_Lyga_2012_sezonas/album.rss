@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>II Lyga (2012 m. sezonas)</title>
+   	<link>..</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+    	<jalbum:link rel="sub" href="Rotalis_Granitas/album.rss" />   	
+    	<jalbum:link rel="sub" href="Rotalis_Fajetonas/album.rss" />   	
+    	<jalbum:link rel="sub" href="Rotalis_Silas/album.rss" />   	
+    	<jalbum:link rel="sub" href="Rotalis_Spyris/album.rss" />   	
+    	<jalbum:link rel="sub" href="Rotalis_Zalgiris/album.rss" />   	
+        
+    </channel>
+</rss>

@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>VARŽYBOS "A LYGA"</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1257">
+<LINK href="rotalis.css" rel=stylesheet type=text/css>
+</head>
+
+
+<body bgcolor="White" leftmargin=0 topmargin=0 marginwidth="0" marginheight="0" background="bkg.jpg">
+<!-- ImageReady Slices (cover.psd) -->
+<table id="Table_01" width="852"  border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="images/cover_01.jpg" width="100" height="25" alt=""></td>
+		<td>
+			<img src="images/cover_02.jpg" width="150" height="25" alt=""></td>
+		<td align="right">			<font color="Green"><b>Sporto ir futbolo klubas "ROTALIS"</b></font></td>
+		<td>
+			<img src="images/cover_04.jpg" width="184" height="25" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/cover_05.jpg" width="100" height="105" alt=""></td>
+		<td>
+			<img src="images/cover_06.jpg" width="150" height="105" alt=""></td>
+		<td>
+			<img src="images/cover_07.jpg" width="418" height="105" alt=""></td>
+		<td>
+			<img src="images/cover_08.jpg" width="184" height="105" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/cover_09.jpg" width="100" height="24" alt=""></td>
+		<td>
+			<img src="images/cover_10.jpg" width="150" height="24" alt=""></td>
+		<td>
+			<img src="images/cover_11.jpg" width="418" height="24" alt=""></td>
+		<td>
+			<img src="images/cover_12.jpg" width="184" height="24" alt=""></td>
+	</tr>
+	
+	<tr>
+		<td align="center" valign="top" bgcolor="#F2F9FC"></td>
+		<td width="150" align="center" valign="top">		
+		<? include("meniu.php"); ?><br><br>
+		
+		
+</td>
+		<td width="100%" colspan="2" align="left" valign="top" bgcolor="#F2F9FC"><table cellspacing="2" cellpadding="2"><tr><td>
+		
+		 <table width="100%" border="0" cellspacing="10" cellpadding="10">
+		 <tr><td>
+		 <h1>Rezultatai</h1>
+</td></tr>
+</table>
+<a name="1994"></a>
+<table width="590" border="1" align="center" cellpadding="2" cellspacing="2" bgcolor="#ffffcc">
+<tr>
+<td width="95"><b>Pagrindinė komanda</b></td>        
+<td width="92"><b>1997-1999m. grupė</b></td>
+
+
+
+<tr>
+
+<td>
+<a href="1993_2012.html" target="_blank">2012 m. sezonas</a>
+<br>
+<a href="team_main_season_2013.html" target="_blank">2013 m. sezonas</a>
+
+<br>
+<a href="2014 rotalis rezultatai.bmp" target="_blank">2014 m. sezonas</a>
+</td>        
+
+<td>
+<a href="1998_2012-2013.html" target="_blank">2012-2013 m. sezonas</a>
+
+<br>
+<a href="97-98 m 2014 metu rezultatai.jpg" target="_blank">2014-2015 m. sezonas</a>
+</td>
+
+<td>
+<a href="varzibos-a-2000.html" target="_blank"></a>
+
+
+</body>
+</html>

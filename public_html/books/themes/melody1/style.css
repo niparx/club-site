@@ -1,0 +1,90 @@
+body {
+  background: #ffffff;
+  background-color: #00000;
+  font-family: Geneva, Arial, Helvetica, san-serif;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: #000000;
+  text-decoration: none;
+}
+td,blockquote,p,ul,ol,li {
+  font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: #000000;
+  text-decoration: none
+}
+th {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 13px;
+  font-style:normal;
+  line-height: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  color: #FFFFFF;
+  text-decoration: none
+}
+th.title {
+  font-family: Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 20px;
+  font-style:normal;
+  line-height: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  color: #FFFFFF;
+  text-decoration: none
+  background: #306090;
+  background-color: #306090;
+}
+a.pagin {
+  font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
+  font-size: 10px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  color: #306090;
+  text-decoration: underline
+}
+a.pagin:hover {
+  font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
+  font-size: 10px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  color: #306090;
+  text-decoration: underline overline
+}
+font.pagin {
+  font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
+  font-size: 10px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bold;
+  font-variant: normal;
+  color: black;
+  text-decoration: none
+}
+font.date {
+  font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
+  font-size: 10px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bold;
+  font-variant: normal;
+  color: #ffffff;
+  text-decoration: none
+}

@@ -1,0 +1,24 @@
+Features for next version
+~~~~~~~~~~~~~~~~~~~~~~~~~
+- (* IMPLEMENTED *)
+  Confirmation code option. A random code that users should provide
+  in order to sign the guestbook. This will help avoid guestbook being
+  signed by bots (if not willing to use the moderation queue option).
+ 
+FUTURE FEATURES
+~~~~~~~~~~~~~~~
+- Improve administration interface.
+- Improve multilingual interface.
+
+ROADMAP to version 0.8
+~~~~~~~~~~~~~~~~~~~~~~
+- Full code rewrite (cleanup).
+- YapGB will be implemented as a class, so that it's easy to use it
+  as an extension (it's possible to do it right now, but class
+  encapsulation should make it better).
+- Standardize variable names (specially session ones).
+- Implement a bunch of auxiliary functions, such as getting/showing
+  latest X entries from guestbook.
+- Implement multilanguage system messages. It will be implemented
+  along with class encapsulation.
+- Implement guestbook configuration through administration interface.

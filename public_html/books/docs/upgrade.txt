@@ -1,0 +1,183 @@
+Upgrading to latest version (from any previous one)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Back up your entries file.
+- Delete all YapGB related files, except the entries file.
+- Upload latest version of YapGB.
+- Edit gbconfig.php as required.
+
+Upgrading to version 0.7.2 (from 0.7.1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Back up your entries file.
+- Replace your existing yapgb.php and gbfunc.php files for those included in new version.
+- Update your configuration file, you can either:
+  - (easy option) replace your current gbconfig.php file for the new one (but you'll need
+    to edit ALL of your configuration options again!).
+  - (fast option) or edit your current gbconfig.php file:
+    Email and URL links are now enabled to users separately, this is the
+    only change in configuration. The only thing you'll need is to open
+    gbconfig.php file, go to (almost) the end of the file and look for this
+    line:
+  
+    $cfgShowLinksOnlyToAdmin = 1;
+  
+    Now, replace it with these:
+
+    # Show Email and URL links to visitors.
+    # Email and Url links are always shown to administrator (when logged in).
+    # To show visitors' email and url links set these variables as needed.
+    # 1 = show link. 0 = do not show.
+    $cfgShowEmailLink = 0;
+    $cfgShowUrlLink = 1;
+  
+    And set $cfgShowEmailLink and $cfgShowUrlLink to 0 (do not show) or 1 (show
+    links to users) as you need.
+- That's it.
+
+Upgrading to version 0.7.1 (from 0.7)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- There is only one difference between these versions: a small change
+  in gbSwapConfirmCode() function in gbfunc.php file.
+  The only thing you need to do is replace your existing gbfunc.php
+  file with the new one.
+
+Upgrading to version 0.7.1 (from 0.6)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Same as upgrading to 0.7, read below.
+
+Upgrading to version 0.7 (from 0.6)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Back up your entries file.
+- Replace your existing yapgb.php and gbfunc.php files for those included in new version.
+- Update your configuration file, you can either:
+  - replace your current gbconfig.php file for the new one (but you'll need
+    to edit your configuration options again!). This is the recommended option.
+  - or edit your current gbconfig.php file and add these lines just before the
+    '?>' at the end of the file:
+
+	-----------------------------
+   # Show a sign succesful page.
+   # If set to 1, after signing the guesbook, it will show the temp_signsuccesful.html file
+   # (located within current theme's directory) to the user.
+   # If set to 0, the main guestbook page will be showed after signing the guestbook.
+   $cfgShowSuccesfulPage = 1;
+   # Confirmation code
+   # If set to 1, the user is required to enter a confirmation code in order
+   # to sign the guestbook.
+   $cfgEnableConfirmationCode = 1;
+
+   # Show links only to admin
+   # If set to 1, entries' email and url links won't be showed unless
+   # administrator has logged in.
+   $cfgShowLinksOnlyToAdmin = 1;
+	-----------------------------
+
+   Version 0.7 adds these three new configuration options.
+   If you set $cfgShowSuccesfulPage to 1, you will need a temp_signsuccesful.html file within
+   your current theme's directory. Check the temp_signsuccesful.html in melody1 theme for a
+   very simple example of what you can do with this new file.
+
+- Update your temp_sign.html template file:
+  Version 0.7 adds the option to require the user to introduce a
+  confirmation code when signing the guestbook, in order to avoid automated
+  signing. This option is enable by default, and requires a new GB_TAG to
+  be included in temp_sign.html file. This new GB_TAG is
+  <!--GB_CONFIRMCODE-->, it will be replaced by a X characters confirmation
+  code.
+  Version 0.7 has a new error notification method, when the script finds
+  errors in data entered by the user, it reloads the sign page and fills in
+  previously entered data (so that it's not lost as before, annoying the user),
+  and errors are shown using the new <!--GB_SIGNERRORS--> GB_TAG, you can place
+  it wherever you want in temp_sign.html file.
+  In order to allow the script to fill signing form fields automatically, name,
+  email and message input fields in temp_sign.html have been change from:
+
+    <input type="text" name="name" />
+    <input type="text" name="email" />
+    <input type="text" name="url" />
+    <textarea name="message"></textarea>
+
+    to:
+
+    <input type="text" name="name" value="<!--GB_ENTRYNAME--> />
+    <input type="text" name="url" value="<!--GB_ENTRYURL-->" />
+    <input type="text" name="url" value="<!--GB_ENTRYURL-->" />
+    <textarea name="message"><!--GB_ENTRYMESSAGE--></textarea>
+
+
+Upgrading to version 0.6.1 (from 0.6)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Back up your entries file.
+- Replace your existing yapgb.php file for the one in the new version.
+- Update your configuration file, you can either:
+  - replace your current gbconfig.php file for the new one (but you'll need
+    to edit your configuration options again!).
+  - or edit your current gbconfig.php file and add these lines just before the
+    '?>' at the end of the file:
+
+	-----------------------------
+	# Show a sign succesful page.
+	# If set to 1, after signing the guesbook, it will show the temp_signsuccesful.html file
+	# (located within current theme's directory) to the user.
+	# If set to 0, the main guestbook page will be showed after signing the guestbook.
+	$cfgShowSuccesfulPage = 1;
+	-----------------------------
+
+    $cfgShowSuccesfulPage is the only addition to configuration options, if you set its value
+    to 1, you will need a temp_signsuccesful.html file in your current theme's directory.
+    Check the temp_signsuccesful.html in melody1 theme for a very simple example of what you
+    can do with this new file.
+
+Upgrading to version 0.6 (from 0.5 or 0.5.1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Back up your entries file (download and save it) for security.
+  (You should back it up on a regular basis).
+- Delete yapgb.php (the main YapGB file).
+- Upload the new yapgb.php file, gbadmin.php, gbconfig.php and
+  gbhelp.php. Also, upload the lang/ directory and its content.
+- Upload the new versions of melody1 and gbwhite themes. If you
+  are using a custom theme, you should read the themesinfo.txt to
+  see the changes you'll need to do to your theme so that it works
+  correctly with this new version, you can use melody1 in
+  the meantime :).
+- You'll need to edit the configuration options once again, they're
+  located in the gbconfig.php file.
+- Now you can delete admin.php, func.php, config.php and help.php
+  files from previous version.
+- And we're done upgrading to version 0.6!
+
+Upgrading to version 0.5.1 (or 0.5)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When upgrading, you need to change almost the whole system,
+these are the steps required:
+
+- Backup your entries file (download and save it) for security
+  (I'd recommend you back it up regularly)
+- Delete your yapgb.php, config.php, admin.php and func.php files.
+  This is because all these files have changed since vesions 0.4.x
+- Upload the new files yapgb.php, admin.php, func.php and help.php.
+- Edit config.php as required.
+- Now modify your current theme to work with version 0.5.1, read
+  below.
+
+THEMES in version 0.5.1 (and 0.5)
+
+The temp_admin.html files have changed, now they need to include
+this line:
+  <input type="hidden" name="date" value="<!--GB_ENTRYDATEINT-->">
+within the deleteMessage form in order to be able to delete entries,
+this is because the date is matched before deleting an entry.
+
+But you don't need to edit your temp_admin.html files if you don't
+want to ;), since now melody1 theme is considered as default, you
+can just delete your temp_admin.html file from your current theme
+folder and and YapGB will use the one in the melody1 theme folder.
+But you must upload melody1 theme :D.
+
+That's it, now you should be able to use YapGB version 0.5.1 :).
+
+Also, since this new version supports smilies, maybe you'll want to
+include a "quick smilies menu" in your signing page, check out the
+temp_sign.html files in themes melody1 and gbwhite to have an idea
+how to make it.
