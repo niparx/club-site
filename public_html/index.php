@@ -43,12 +43,14 @@
 			<li>fanų komanda</li> <br>
 			</ul>
 <!-- <li> Trys vaikų grupės (1997-1999 m.g., 2001-2004 m.g., 2007-2009 m.g.)</li> -->
-<br> <br>
-<div align="center"><img src="fotos/Rotalis2018.jpg" width="620" height="620" alt="Futbolo klubas «Rotalis»" border="0"></div>
+<br>
+<div align="center"><img src="fotos/kaledinis_turnyras_2018_vaikai.jpg" width="100%" height="100%" alt="Futbolo klubas «Rotalis»" border="0"></div>
 <br><br><br>
 <center><font color="#770000"><b><acronym title=" Спортивно-футбольный клуб „Rotalis“ приглашает детей всех возрастов тренироваться в нашем клубе">SFK "ROTALIS" kviečia 6-12 metų vaikus lankyti futbolo treniruotes Karoliniškese (Kačialovo gimnazija) ir Sportimos manieže (Ąžuolyno g. 5) nuo rugsėjo 3 d. Pirmas apsilankymas - NEMOKAMAS </acronym></b></font><br>
 <acronym title="Номера телефонов, где можно получить всю необходимую информацию">Telefono numeris išsamėsnei informacijai gauti: 865503172</acronym>
 </center>
+<br><br><br>
+<div align="center"><img src="fotos/Skrajute_2018_small.jpg" width="75%" height="75%" alt="Kviečiame į treniruotę" border="0"/>
 
 <!-- 
 <br>
