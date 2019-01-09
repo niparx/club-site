@@ -39,7 +39,7 @@
 			Sporto klube yra:
 			<ul>
 			<li>viena vyrų komanda</li> <br>
-			<li>trys vaiku grupes (2008 m.g., 2009 m.g., 2010/11 m.g.)</li> <br>
+			<li>trys vaiku grupes (2008 m.g., 2009/2010 m.g., 2011/12 m.g.)</li> <br>
 			<li>fanų komanda</li> <br>
 			</ul>
 <!-- <li> Trys vaikų grupės (1997-1999 m.g., 2001-2004 m.g., 2007-2009 m.g.)</li> -->
