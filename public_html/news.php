@@ -46,6 +46,12 @@
 					<td>
 						<table>
 						<tr align="justify">
+						<td><dd><b>2018-12-22</b>&nbsp; Įvyko tradicinis FK "Rotalio" Kalėdinis turnyras. Nugalėtoju tapo S.Mikoliūno komanda.
+						</td></tr>
+						</table>
+					<br>
+						<table>
+						<tr align="justify">
 						<td><dd><b>2018 -</b>  &nbsp; Vyrų komanda dalyvauja mini futbolo lygos čempionate. </td></tr>
 							</table>
 					<br>
