@@ -53,6 +53,145 @@
 		</td></tr>
 		</table>
 
+		<div class="sidebar-table">
+		<a href="http://www.mfl.lt/index.php?action=Show_T_Rez&turnyras=10&sezon=56" target="_blank"><h3 class="title link"><span>Mini futbolo lyga (B divizionas) — 2018</span></h3></a>
+		<table id="match_standings" class="standings">
+					<tr>
+						<th></th>
+						<td><b>&nbsp; Komanda</b></td>
+						<td>R</th>
+						<td>&nbsp; &nbsp; P / L / Pr</td>
+						<td>&nbsp; &nbsp; Įv</td>
+						<td>&nbsp;Pr</td>
+						<td>&nbsp;+/-</td>
+						<td><b>&nbsp; Tšk</b></td>
+					</tr>
+							<tr >
+								<td class="span1">1</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=659" target="_blank">FK Polivektris</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 22 / 0 / 0</td>
+								<td class="span1">&nbsp; 134</td>
+								<td class="span1">46</td>
+								<td class="span1">+88</td>
+								<td class="span1">&nbsp; 64</td>
+							</tr>
+							<tr >
+								<td class="span1">2</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=660" target="_blank">FK Rotalis</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 18 / 0 / 4</td>
+								<td class="span1">&nbsp; 143</td>
+								<td class="span1">41</td>
+								<td class="span1">+102</td>
+								<td class="span1">&nbsp; 54</td>
+							</tr>
+							<tr >
+								<td class="span1">3</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=649" target="_blank">MSC - Hilltown</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 13 / 3 / 6</td>
+								<td class="span1">&nbsp; 88</td>
+								<td class="span1">69</td>
+								<td class="span1">+19</td>
+								<td class="span1">&nbsp; 42</td>
+							</tr>
+							<tr >
+								<td class="span1">4</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=650" target="_blank">FK Eksperimentas</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 13 / 2 / 7</td>
+								<td class="span1">&nbsp; 88</td>
+								<td class="span1">88</td>
+								<td class="span1">+22</td>
+								<td class="span1">&nbsp; 41</td>
+							</tr>
+							<tr >
+								<td class="span1">5</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=656" target="_blank">FK Valčiūnai</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 10 / 4 / 8</td>
+								<td class="span1">&nbsp; 97</td>
+								<td class="span1">91</td>
+								<td class="span1">+6</td>
+								<td class="span1">&nbsp; 34</td>
+							</tr>
+							<tr >
+								<td class="span1">6</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=663" target="_blank">FK Alytis</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 8 / 4 / 10</td>
+								<td class="span1">&nbsp; 70</td>
+								<td class="span1">83</td>
+								<td class="span1">-13</td>
+								<td class="span1">&nbsp; 28</td>
+							</tr>
+							<tr >
+								<td class="span1">7</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=654" target="_blank">FC Funk Soul Brothers</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 8 / 2 / 12</td>
+								<td class="span1">&nbsp; 63</td>
+								<td class="span1">94</td>
+								<td class="span1">-31</td>
+								<td class="span1">&nbsp; 26</td>
+							</tr>
+							<tr >
+								<td class="span1">8</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=657" target="_blank">VSG United</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 8 / 1 / 13</td>
+								<td class="span1">&nbsp; 70</td>
+								<td class="span1">95</td>
+								<td class="span1">-25</td>
+								<td class="span1">&nbsp; 25</td>
+							</tr>
+							<tr >
+								<td class="span1">9</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=652" target="_blank">WorldOne United</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 7 / 0 / 15</td>
+								<td class="span1">&nbsp; 69</td>
+								<td class="span1">101</td>
+								<td class="span1">-32</td>
+								<td class="span1">&nbsp; 21</td>
+							</tr>
+							<tr >
+								<td class="span1">10</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=651" target="_blank">FK Barbakanas</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 6 / 3 / 13</td>
+								<td class="span1">&nbsp; 58</td>
+								<td class="span1">87</td>
+								<td class="span1">-29</td>
+								<td class="span1">&nbsp; 21</td>
+							</tr>
+							<tr >
+								<td class="span1">11</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=658" target="_blank">FC Žalia Raudona</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 6 / 2 / 14</td>
+								<td class="span1">&nbsp; 66</td>
+								<td class="span1">108</td>
+								<td class="span1">-42</td>
+								<td class="span1">&nbsp; 20</td>
+							</tr>
+							<tr >
+								<td class="span1">12</td>
+								<td class="span1"><a href="http://www.mfl.lt/index.php?action=Show_Team&turnyras=10&id=655" target="_blank">FK Volcano</a></td>
+								<td class="span1">22</td>
+								<td class="span3">&nbsp; 1 / 3 / 18</td>
+								<td class="span1">&nbsp; 38</td>
+								<td class="span1">103</td>
+								<td class="span1">-65</td>
+								<td class="span1">&nbsp; 6</td>
+							</tr>
+							<tr ><td>&nbsp;</td></tr>
+							<tr ><td>&nbsp;</td></tr>
+							<tr ><td>&nbsp;</td></tr>
+							<tr ><td>&nbsp;</td></tr>
+		</table>
+		</div>
 
 		<div class="sidebar-table">
 		<a href="http://vilniausfutbolas.lt/turnyrine-lentele/29"><h3 class="title link"><span>Turnyrinė lentelė — 2016</span></h3></a>
