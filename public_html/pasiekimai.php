@@ -163,7 +163,7 @@
                         </tr>
                         <tr valign="top">
                           <td>Saulius Mikoliūnas</td>
-                          <td><!-- "Shahtiyor" Salihorsk, Baltarusija --></td>
+                          <td></td>
                           <td>
                             <ul>
                               <li>„FC Hearts“, Edinburgas, Škotija;</li>
@@ -173,7 +173,7 @@
                         </tr>
                         <tr valign="top">
                           <td>Mindaugas Kalonas</td>
-                          <td><!-- PIK Simurq, Zakatala, Azerbaidžanas -->Kauno Žalgiris, Kaunas</td>
+                          <td>Kauno Žalgiris, Kaunas</td>
                           <td>
                             <ul>
                               <li>„FC Dynamo“, Maskva, Rusija;</li>
@@ -215,7 +215,7 @@
                         </tr>
                         <tr valign="top">
                           <td>Valdemar Borovskij</td>
-                          <td><!-- FK "Daugava", Riga, Latvija -->FK  Lietava, Jonava</td>
+                          <td>FK  Lietava, Jonava</td>
                           <td>
                             <ul>
                               <li>FK "Sūduva", Lietuva;</li>
