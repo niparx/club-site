@@ -34,63 +34,33 @@
 	
 	<tr>
 		<td align="center" valign="top" bgcolor="#F2F9FC"></td>
-		<td width="150" align="center" valign="top">		
-		<? include("meniu.php"); ?><br><br> 
+		<td width="150" align="center" valign="top">
+			<? include("meniu.php"); ?><br><br> 
 		</td>
-		<td colspan="" align="left" valign="top" bgcolor="#F2F9FC">		
-				
-				<table width="100%" border="0" cellspacing="10" cellpadding="10">
+		<td colspan="" align="left" valign="top" bgcolor="#F2F9FC">
+			<table width="100%" border="0" cellspacing="10" cellpadding="10">
 			 	<tr><td> &nbsp; </td></tr>
-				<tr>	<td><h1>NAUJIENOS</h1> </td>  </tr>
-					</td></tr>
-					<td>
-						<table>
-						<tr align="justify">
-						<td><dd><b>2018-12-22</b>&nbsp; Įvyko tradicinis FK "Rotalio" Kalėdinis turnyras. Nugalėtoju tapo S.Mikoliūno komanda.
-						</td></tr>
-						</table>
-					<br>
-						<table>
-						<tr align="justify">
-						<td><dd><b>2018 -</b>  &nbsp; Vyrų komanda dalyvauja mini futbolo lygos čempionate. </td></tr>
-							</table>
-					<br>
-						<table>
-						<tr align="justify">
-						<td><dd><b>2018 -</b>  &nbsp; 2008 m. ir 2009 m. gimimo komandos startavo "Wellkid lygos" varžybose.</td></tr>
-							</table>
-					<br>			
-						<table>
-						<tr align="justify">
-						<td><dd><b>2018-04-22</b>  &nbsp; 2018 m. sezonas startavo!  </td></tr>
-							</table>
-							</td></tr>
-							<tr><td>
-							<br>
-						<table>
-						<tr align="justify"><td>
-						<dd><b>2017 04 25</b>  &nbsp; Sekančios III lygos rungtynės SFK Rotalis - FK Granitas 2017 05 10 Panerio stadione! 
- </td></tr>
- 			 	<tr><td> &nbsp; </td></tr>
-						</table>
-								
-						<table>
-						<tr align="justify">
-						<td><dd><b>2017-04-22</b>
-  &nbsp; 2017 m. sezonas startavo! Atkakliose ir permainingose rungtynėse rezultatu 1:2 SFK Rotalis buvo priverstas pripažinti FK Medžiai pranašumą. </td></tr>
-							</table>
-							</td></tr>
-							<tr><td><br>
-							<table><tr><td>
-					<br><br>
-www.rotalis.forumlt.com
-							</td></tr>
-							</table>
-							</td></tr>
-							
-						</table>
-					</td>
-				</tr>
+				<tr><td><h1>NAUJIENOS</h1></td></tr>
+
+				<tr><td>
+					<table><tr align="justify"><td>
+						<dd><b>2019</b>&nbsp; 2019 m. liepos 13-22 d. 2007-2008 m.g. komanda dalyvavo
+Švedijoje (Geteborge m.), Gothia Cup turnyre. Rezultatus rasite <a href="https://results.gothiacup.se/2019/team/22765825" target="_blank"><b><u>čia</u><b></a>.
+					</td></tr></table>
+				</td></tr>
+
+				<tr><td>
+					<table><tr align="justify"><td>
+						<dd><b>2019</b>&nbsp; Klubo 2007-2008 m.g. komanda pradejo Wellkid lygos antro rato varžybas.
+					</td></tr></table>
+				</td></tr>
+
+				<tr><td>
+					<table><tr align="justify"><td>
+						<dd><b>2019-08-29</b>&nbsp; Vyrų komanda po vasaros atostogų pirmose MFL lygos varžybose laimėjo 6-1 prieš FK Rytas.
+					</td></tr></table>
+				</td></tr>
+
 			</table>
 		</td>
 	</tr>
