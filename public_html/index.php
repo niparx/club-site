@@ -39,10 +39,9 @@
 			Sporto klube yra:
 			<ul>
 			<li>viena vyrų komanda</li> <br>
-			<li>trys vaiku grupes (2008 m.g., 2009/2010 m.g., 2011/12 m.g.)</li> <br>
+			<li>trys vaiku grupes (2007-2008 m.g., 2009-2010 m.g., 2011-2013 m.g.)</li> <br>
 			<li>fanų komanda</li> <br>
 			</ul>
-<!-- <li> Trys vaikų grupės (1997-1999 m.g., 2001-2004 m.g., 2007-2009 m.g.)</li> -->
 <br>
 <div align="center"><img src="fotos/kaledinis_turnyras_2018_vaikai.jpg" width="100%" height="100%" alt="Futbolo klubas «Rotalis»" border="0"></div>
 <br><br><br>
